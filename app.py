@@ -8,13 +8,11 @@ Airline Booking Market Demand Dashboard (Streamlit)
 
 import os
 import time
-import math
 import requests
 import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from io import BytesIO
 from bs4 import BeautifulSoup
 
 st.set_page_config(page_title="Airline Booking Demand", layout="wide", initial_sidebar_state="expanded")
@@ -31,19 +29,14 @@ def load_or_create_csv(csv_path: str = "airline_bookings.csv", n_synth: int = 20
             return df
         except Exception as e:
             st.warning(f"Failed to read {csv_path}: {e}. Will generate synthetic data.")
-    # generate synthetic data
+
     np.random.seed(42)
     n = n_synth
     airlines = ["Qantas", "Virgin Australia", "Jetstar", "Singapore Airlines", "Emirates"]
     routes = [
-        ("Sydney", "Melbourne"),
-        ("Sydney", "Brisbane"),
-        ("Melbourne", "Perth"),
-        ("Brisbane", "Adelaide"),
-        ("Sydney", "Singapore"),
-        ("Melbourne", "Dubai"),
-        ("Sydney", "Cairns"),
-        ("Brisbane", "Gold Coast"),
+        ("Sydney", "Melbourne"), ("Sydney", "Brisbane"), ("Melbourne", "Perth"),
+        ("Brisbane", "Adelaide"), ("Sydney", "Singapore"), ("Melbourne", "Dubai"),
+        ("Sydney", "Cairns"), ("Brisbane", "Gold Coast")
     ]
     cabins = ["Economy", "Business", "First"]
     chosen_routes = np.random.choice(len(routes), n)
@@ -68,11 +61,10 @@ def to_csv_bytes(df_input: pd.DataFrame) -> bytes:
     return df_input.to_csv(index=False).encode("utf-8")
 
 # -----------------------------
-# Optional: OpenSky arrivals helper
+# OpenSky arrivals helper
 # -----------------------------
 @st.cache_data(ttl=15 * 60)
 def fetch_opensky_arrival_count(icao: str, days: int = 3) -> int | None:
-    """Return number of arrival records in last `days` days via OpenSky public API """
     try:
         end = int(time.time())
         start = end - days * 24 * 3600
@@ -88,23 +80,16 @@ def fetch_opensky_arrival_count(icao: str, days: int = 3) -> int | None:
     except Exception:
         return None
 
-# Small IATA -> ICAO map for AU airports (extend as needed)
 IATA_TO_ICAO = {
-    "Sydney": "YSSY",
-    "Melbourne": "YMML",
-    "Brisbane": "YBBN",
-    "Perth": "YPPH",
-    "Adelaide": "YPAD",
-    "Cairns": "YBCS",
-    "Gold Coast": "YBCG",
+    "Sydney": "YSSY", "Melbourne": "YMML", "Brisbane": "YBBN",
+    "Perth": "YPPH", "Adelaide": "YPAD", "Cairns": "YBCS", "Gold Coast": "YBCG",
 }
 
 # -----------------------------
-# Optional: BITRE CSV discovery 
+# BITRE CSV discovery
 # -----------------------------
 @st.cache_data(ttl=6 * 60 * 60)
 def discover_bitre_csvs() -> list:
-    """Try to discover some BITRE CSV links from public pages."""
     roots = [
         "https://www.bitre.gov.au/publications/ongoing/international_airline_activity-monthly_publications",
         "https://www.bitre.gov.au/publications/ongoing/airport_traffic_data",
@@ -129,8 +114,6 @@ def discover_bitre_csvs() -> list:
 # Load dataset & preprocess
 # -----------------------------
 df = load_or_create_csv()
-
-# Basic derived columns
 df["TravelMonth"] = pd.to_datetime(df["TravelDate"]).dt.to_period("M").dt.to_timestamp()
 df["LeadDays"] = (pd.to_datetime(df["TravelDate"]) - pd.to_datetime(df["BookingDate"])).dt.days
 lead_bins = [0, 7, 14, 30, 60, 90, 120, 365]
@@ -138,10 +121,10 @@ lead_labels = ["0-6", "7-13", "14-29", "30-59", "60-89", "90-119", "120+"]
 df["LeadBucket"] = pd.cut(df["LeadDays"], bins=lead_bins, labels=lead_labels, right=False)
 
 # -----------------------------
-# Sidebar controls
+# Sidebar filters
 # -----------------------------
 st.sidebar.title("Filters & Controls")
-st.sidebar.caption("Filter data; small caption text shows guidance.")
+st.sidebar.caption("Filter data; adjust settings for charts/forecast.")
 
 airline = st.sidebar.selectbox("Airline", ["All"] + sorted(df["Airline"].unique().tolist()))
 origin = st.sidebar.selectbox("Origin", ["All"] + sorted(df["Origin"].unique().tolist()))
@@ -154,13 +137,12 @@ rolling_window = st.sidebar.slider("Rolling window (months)", min_value=3, max_v
 forecast_horizon = st.sidebar.slider("Forecast horizon (months)", min_value=1, max_value=6, value=3, step=1)
 st.sidebar.markdown("---")
 
-# Optional API tools
 st.sidebar.header("Optional live data")
 use_opensky = st.sidebar.checkbox("Show OpenSky recent arrivals", value=False)
 show_bitre = st.sidebar.checkbox("Discover BITRE CSVs", value=False)
 
 # -----------------------------
-# Apply filters
+# Apply filters safely
 # -----------------------------
 filtered = df.copy()
 if airline != "All":
@@ -172,15 +154,17 @@ if destination != "All":
 if cabin != "All":
     filtered = filtered[filtered["Cabin"] == cabin]
 
+# -----------------------------
 # Header & KPIs
+# -----------------------------
 st.title("Airline Booking Market Demand Dashboard")
 st.caption("Interactive dashboard — use sidebar filters. Data is local synthetic CSV by default.")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Bookings", f"{len(filtered):,}")
-col2.metric("Total Revenue (AUD)", f"{filtered['Price'].sum():,.0f}")
-col3.metric("Average Price (AUD)", f"{filtered['Price'].mean():,.2f}" if len(filtered) else "—")
-col4.metric("Unique Routes", f"{filtered[['Origin','Destination']].drop_duplicates().shape[0]}")
+col2.metric("Total Revenue (AUD)", f"{filtered['Price'].sum():,.0f}" if not filtered.empty else 0)
+col3.metric("Average Price (AUD)", f"{filtered['Price'].mean():,.2f}" if not filtered.empty else "—")
+col4.metric("Unique Routes", f"{filtered[['Origin','Destination']].drop_duplicates().shape[0]}" if not filtered.empty else 0)
 
 st.divider()
 
@@ -188,7 +172,6 @@ st.divider()
 # Optional live signals
 # -----------------------------
 if use_opensky:
-    # If a single origin is selected, show arrivals for it
     chosen = origin if origin != "All" else None
     if chosen and chosen in IATA_TO_ICAO:
         with st.spinner(f"Fetching OpenSky arrivals for {chosen}..."):
@@ -222,7 +205,6 @@ else:
     top_routes.plot(kind="bar", ax=ax)
     ax.set_ylabel("Bookings")
     ax.set_xlabel("Route")
-    # nicer xlabels:
     ax.set_xticklabels([f"{o}-{d}" for (o,d) in top_routes.index], rotation=45, ha="right")
     plt.tight_layout()
     st.pyplot(fig)
@@ -248,7 +230,6 @@ else:
 # -----------------------------
 st.subheader("Bookings by Travel Month & Forecast")
 monthly_bookings = filtered.groupby("TravelMonth").size().sort_index()
-
 if monthly_bookings.empty:
     st.info("No time-series data for current filters.")
 else:
@@ -276,37 +257,42 @@ else:
 # Lead-time & cabin breakdown
 # -----------------------------
 left, right = st.columns(2)
+
 with left:
     st.subheader("Lead-Time Distribution")
     lead_dist = filtered.groupby("LeadBucket").size().reindex(lead_labels, fill_value=0)
-    fig, ax = plt.subplots(figsize=(7,3))
-    lead_dist.plot(kind="bar", ax=ax)
-    ax.set_ylabel("Bookings")
-    ax.set_xlabel("Lead bucket (days)")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    st.pyplot(fig)
+    if lead_dist.empty:
+        st.info("No lead-time data for current filter.")
+    else:
+        fig, ax = plt.subplots(figsize=(7,3))
+        lead_dist.plot(kind="bar", ax=ax)
+        ax.set_ylabel("Bookings")
+        ax.set_xlabel("Lead bucket (days)")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        st.pyplot(fig)
 
 with right:
     st.subheader("Cabin Distribution")
     cabin_dist = filtered["Cabin"].value_counts()
-    fig, ax = plt.subplots(figsize=(6,3))
-    cabin_dist.plot(kind="bar", ax=ax)
-    ax.set_ylabel("Bookings")
-    ax.set_xlabel("Cabin")
-    plt.tight_layout()
-    st.pyplot(fig)
+    if cabin_dist.empty:
+        st.info("No cabin data for the current filter.")
+    else:
+        fig, ax = plt.subplots(figsize=(6,3))
+        cabin_dist.plot(kind="bar", ax=ax)
+        ax.set_ylabel("Bookings")
+        ax.set_xlabel("Cabin")
+        plt.tight_layout()
+        st.pyplot(fig)
 
 # -----------------------------
-# AI Insights (Optional - OpenAI)
+# AI Insights (Optional)
 # -----------------------------
 OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 if OPENAI_KEY:
     try:
         import openai
         openai.api_key = OPENAI_KEY
-
-        # Prepare a compact prompt
         top_routes_list = [f"{o}-{d} ({c})" for (o, d), c in top_routes.items()] if not top_routes.empty else []
         last_price_vals = price_trend.tail(3).tolist() if not price_trend.empty else []
         prompt = (
@@ -318,7 +304,6 @@ if OPENAI_KEY:
             f"Recent avg price (last 3 months): {', '.join([str(int(x)) for x in last_price_vals]) if last_price_vals else 'N/A'}\n\n"
             "Keep it short and actionable."
         )
-        # Call ChatCompletion
         resp = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}],
@@ -333,11 +318,16 @@ if OPENAI_KEY:
 else:
     st.sidebar.caption("Set OPENAI_API_KEY (env) to enable AI summaries.")
 
-
 # -----------------------------
 # Download filtered CSV
 # -----------------------------
 st.markdown("---")
-st.download_button("Download filtered data (CSV)", data=to_csv_bytes(filtered), file_name="filtered_airline_bookings.csv", mime="text/csv")
+st.download_button(
+    "Download filtered data (CSV)", 
+    data=to_csv_bytes(filtered), 
+    file_name="filtered_airline_bookings.csv", 
+    mime="text/csv"
+)
 
 st.caption("Built with Streamlit. Use OpenSky/BITRE hints for live signals; AI summary is optional. Replace forecast with ML model for production.")
+
