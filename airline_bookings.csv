@@ -1,0 +1,1001 @@
+BookingID,Airline,Origin,Destination,Cabin,Price,BookingDate,TravelDate
+1,Emirates,Brisbane,Adelaide,Economy,1222,2023-07-25,2023-04-07
+2,Singapore Airlines,Sydney,Singapore,Economy,1887,2023-04-24,2023-07-19
+3,Jetstar,Melbourne,Perth,Economy,1973,2023-09-29,2023-09-23
+4,Qantas,Sydney,Singapore,Economy,203,2023-03-24,2024-01-04
+5,Jetstar,Sydney,Singapore,Economy,1337,2023-06-28,2023-09-09
+6,Jetstar,Sydney,Brisbane,Economy,1884,2023-07-29,2024-01-09
+7,Emirates,Melbourne,Perth,Business,1787,2023-11-24,2023-07-17
+8,Singapore Airlines,Melbourne,Perth,First,861,2023-05-04,2023-10-25
+9,Virgin Australia,Melbourne,Perth,Business,886,2023-04-23,2023-08-12
+10,Singapore Airlines,Sydney,Singapore,Economy,264,2023-01-12,2023-11-14
+11,Singapore Airlines,Brisbane,Adelaide,Economy,1098,2023-05-06,2023-11-06
+12,Jetstar,Melbourne,Perth,Economy,1976,2023-02-22,2023-04-21
+13,Singapore Airlines,Melbourne,Dubai,Economy,619,2023-11-27,2023-08-10
+14,Qantas,Sydney,Singapore,Business,1407,2023-10-10,2023-05-31
+15,Jetstar,Sydney,Brisbane,Business,616,2023-05-20,2023-07-17
+16,Qantas,Brisbane,Adelaide,Economy,756,2023-04-07,2023-03-31
+17,Virgin Australia,Melbourne,Dubai,Business,712,2023-01-05,2023-10-28
+18,Jetstar,Melbourne,Dubai,Business,263,2023-02-26,2023-06-05
+19,Virgin Australia,Sydney,Brisbane,Economy,1782,2023-11-30,2023-09-08
+20,Jetstar,Brisbane,Adelaide,Business,163,2023-03-10,2023-02-08
+21,Emirates,Sydney,Singapore,Economy,1214,2023-04-28,2023-10-31
+22,Singapore Airlines,Sydney,Melbourne,Economy,1240,2023-02-28,2023-03-22
+23,Emirates,Brisbane,Adelaide,Economy,1989,2023-02-02,2023-09-21
+24,Virgin Australia,Sydney,Brisbane,Economy,366,2023-11-14,2023-05-12
+25,Singapore Airlines,Melbourne,Dubai,Economy,1945,2023-02-19,2023-03-28
+26,Jetstar,Sydney,Singapore,Economy,1808,2023-01-19,2023-10-23
+27,Singapore Airlines,Brisbane,Adelaide,Economy,1682,2023-08-02,2024-01-09
+28,Qantas,Sydney,Melbourne,Economy,1263,2023-07-16,2023-01-24
+29,Singapore Airlines,Sydney,Melbourne,Economy,345,2023-02-16,2023-08-13
+30,Qantas,Melbourne,Perth,Economy,1784,2023-06-16,2023-12-03
+31,Singapore Airlines,Melbourne,Perth,Economy,1881,2023-10-16,2023-06-15
+32,Qantas,Sydney,Brisbane,Economy,494,2023-05-21,2023-01-19
+33,Virgin Australia,Brisbane,Adelaide,Economy,1610,2023-03-25,2023-07-28
+34,Emirates,Brisbane,Adelaide,Economy,575,2023-07-01,2023-10-24
+35,Jetstar,Melbourne,Dubai,Economy,1640,2023-03-20,2023-05-07
+36,Singapore Airlines,Melbourne,Dubai,Economy,1076,2023-08-03,2023-10-12
+37,Emirates,Melbourne,Dubai,Business,1307,2023-01-14,2023-06-26
+38,Jetstar,Melbourne,Perth,Economy,1143,2023-08-03,2023-04-29
+39,Jetstar,Brisbane,Adelaide,Economy,657,2023-05-08,2023-07-14
+40,Qantas,Brisbane,Adelaide,First,1117,2023-11-06,2023-02-27
+41,Virgin Australia,Sydney,Melbourne,Business,1647,2023-09-05,2023-10-23
+42,Virgin Australia,Melbourne,Perth,Business,1705,2023-01-29,2023-07-08
+43,Emirates,Sydney,Singapore,Business,1652,2023-10-07,2023-06-25
+44,Virgin Australia,Melbourne,Perth,Economy,982,2023-12-04,2023-12-31
+45,Singapore Airlines,Sydney,Singapore,Economy,246,2023-11-15,2023-12-20
+46,Virgin Australia,Sydney,Melbourne,Economy,765,2023-07-21,2023-06-03
+47,Emirates,Sydney,Brisbane,Economy,1427,2023-12-27,2023-05-26
+48,Virgin Australia,Brisbane,Adelaide,Economy,719,2023-02-26,2023-04-11
+49,Singapore Airlines,Sydney,Melbourne,Economy,1871,2023-08-06,2023-07-09
+50,Qantas,Brisbane,Adelaide,Economy,919,2023-03-03,2023-07-16
+51,Emirates,Melbourne,Dubai,Business,963,2023-06-06,2023-05-23
+52,Qantas,Sydney,Brisbane,Business,681,2023-07-21,2023-09-17
+53,Qantas,Sydney,Brisbane,Economy,1122,2023-01-17,2023-04-13
+54,Qantas,Sydney,Melbourne,Business,794,2023-11-18,2023-03-21
+55,Jetstar,Sydney,Brisbane,Economy,1885,2023-01-06,2023-06-21
+56,Jetstar,Sydney,Singapore,Business,1351,2023-02-27,2023-06-12
+57,Qantas,Sydney,Brisbane,Economy,1225,2023-11-21,2023-12-20
+58,Emirates,Brisbane,Adelaide,First,1710,2023-11-14,2023-05-10
+59,Singapore Airlines,Brisbane,Adelaide,Economy,1540,2023-06-18,2023-08-16
+60,Singapore Airlines,Brisbane,Adelaide,Economy,1339,2023-03-23,2023-11-04
+61,Virgin Australia,Brisbane,Adelaide,Economy,506,2023-08-07,2023-09-24
+62,Emirates,Sydney,Singapore,Economy,498,2023-06-26,2023-06-06
+63,Jetstar,Melbourne,Perth,Economy,814,2023-07-23,2023-09-21
+64,Qantas,Melbourne,Dubai,Economy,803,2023-03-12,2023-11-12
+65,Virgin Australia,Sydney,Melbourne,Economy,860,2023-09-23,2023-02-08
+66,Singapore Airlines,Brisbane,Adelaide,Economy,598,2023-04-08,2023-10-18
+67,Jetstar,Sydney,Brisbane,Economy,1877,2023-12-11,2023-03-25
+68,Jetstar,Brisbane,Adelaide,Business,1588,2023-10-18,2023-05-07
+69,Qantas,Sydney,Brisbane,Economy,1814,2023-07-27,2024-01-12
+70,Singapore Airlines,Melbourne,Dubai,Economy,1073,2023-01-02,2023-05-06
+71,Emirates,Melbourne,Dubai,Economy,1854,2023-05-04,2024-01-13
+72,Jetstar,Melbourne,Dubai,Business,181,2023-10-07,2023-11-13
+73,Qantas,Sydney,Brisbane,Economy,703,2023-03-15,2023-04-15
+74,Emirates,Brisbane,Adelaide,First,1810,2023-06-15,2023-02-01
+75,Singapore Airlines,Melbourne,Dubai,Business,1874,2023-01-22,2023-06-12
+76,Jetstar,Sydney,Singapore,Economy,871,2023-06-03,2023-08-29
+77,Emirates,Sydney,Brisbane,Economy,1002,2023-10-22,2023-08-16
+78,Emirates,Sydney,Brisbane,Business,464,2023-08-07,2024-01-09
+79,Emirates,Brisbane,Adelaide,Business,262,2023-06-06,2023-06-14
+80,Jetstar,Sydney,Brisbane,Economy,1171,2023-08-18,2023-07-25
+81,Jetstar,Sydney,Brisbane,Economy,610,2023-01-20,2023-02-23
+82,Virgin Australia,Melbourne,Dubai,Business,1452,2023-02-10,2023-09-13
+83,Singapore Airlines,Brisbane,Adelaide,Economy,1963,2023-05-28,2023-06-01
+84,Qantas,Melbourne,Dubai,Business,215,2023-04-18,2023-12-25
+85,Emirates,Melbourne,Dubai,Economy,1040,2023-03-25,2023-07-13
+86,Virgin Australia,Brisbane,Adelaide,Economy,1972,2023-11-18,2023-08-02
+87,Qantas,Sydney,Melbourne,Business,436,2023-11-05,2023-08-05
+88,Virgin Australia,Melbourne,Dubai,Economy,980,2023-10-17,2023-03-16
+89,Jetstar,Sydney,Singapore,Economy,836,2023-11-19,2023-07-25
+90,Emirates,Sydney,Singapore,Economy,1987,2023-05-14,2023-01-19
+91,Qantas,Sydney,Brisbane,Economy,939,2023-07-26,2023-09-08
+92,Qantas,Sydney,Singapore,Economy,246,2023-10-10,2023-07-14
+93,Qantas,Sydney,Brisbane,Economy,1698,2023-09-23,2023-11-21
+94,Qantas,Sydney,Melbourne,Economy,1929,2023-03-14,2023-02-20
+95,Qantas,Brisbane,Adelaide,Business,1446,2023-12-18,2023-03-11
+96,Virgin Australia,Brisbane,Adelaide,Economy,542,2023-02-17,2023-09-08
+97,Emirates,Brisbane,Adelaide,Economy,936,2023-11-22,2024-01-07
+98,Jetstar,Sydney,Singapore,Economy,1136,2023-08-21,2023-12-29
+99,Jetstar,Sydney,Melbourne,Business,1042,2023-04-10,2023-07-30
+100,Jetstar,Sydney,Singapore,Business,1617,2023-02-28,2023-03-28
+101,Jetstar,Sydney,Singapore,Economy,1824,2023-09-15,2023-03-14
+102,Virgin Australia,Sydney,Melbourne,Economy,386,2023-03-06,2023-09-11
+103,Singapore Airlines,Sydney,Melbourne,Economy,819,2023-03-24,2023-01-16
+104,Emirates,Sydney,Melbourne,Business,1237,2023-06-03,2024-01-09
+105,Qantas,Sydney,Melbourne,Business,579,2023-09-23,2023-07-21
+106,Singapore Airlines,Brisbane,Adelaide,Economy,121,2023-11-05,2023-11-17
+107,Jetstar,Melbourne,Perth,Business,1472,2023-03-20,2023-02-13
+108,Singapore Airlines,Melbourne,Perth,Business,1849,2023-11-11,2023-10-08
+109,Emirates,Sydney,Melbourne,Economy,782,2023-05-30,2023-05-02
+110,Qantas,Melbourne,Perth,Economy,1958,2023-02-17,2023-12-12
+111,Qantas,Melbourne,Perth,Economy,1689,2023-09-05,2023-04-14
+112,Emirates,Sydney,Melbourne,Economy,1005,2023-10-05,2023-08-07
+113,Emirates,Melbourne,Perth,Business,1933,2023-12-22,2023-08-22
+114,Jetstar,Sydney,Singapore,Economy,419,2023-04-08,2023-04-18
+115,Qantas,Sydney,Brisbane,Economy,225,2023-01-25,2023-04-27
+116,Singapore Airlines,Sydney,Brisbane,Economy,376,2023-10-11,2023-08-25
+117,Virgin Australia,Sydney,Melbourne,Economy,1327,2023-10-28,2023-07-19
+118,Virgin Australia,Brisbane,Adelaide,Economy,293,2023-03-09,2023-07-17
+119,Emirates,Sydney,Melbourne,Economy,1804,2023-01-07,2023-06-25
+120,Jetstar,Brisbane,Adelaide,Economy,1787,2023-11-01,2023-09-18
+121,Virgin Australia,Sydney,Brisbane,Economy,1670,2023-05-17,2023-02-14
+122,Qantas,Sydney,Melbourne,Economy,795,2023-06-13,2023-03-07
+123,Emirates,Melbourne,Dubai,Economy,1409,2023-03-24,2023-12-25
+124,Singapore Airlines,Sydney,Singapore,Economy,156,2023-05-18,2023-03-31
+125,Emirates,Melbourne,Perth,Economy,1857,2023-03-14,2023-10-19
+126,Singapore Airlines,Brisbane,Adelaide,Economy,1426,2023-08-25,2023-02-23
+127,Emirates,Melbourne,Dubai,Economy,1286,2023-02-15,2023-04-25
+128,Emirates,Melbourne,Perth,Economy,118,2023-04-16,2023-05-05
+129,Emirates,Melbourne,Perth,Economy,1493,2023-10-15,2023-12-01
+130,Singapore Airlines,Sydney,Melbourne,Business,363,2023-09-19,2023-09-20
+131,Singapore Airlines,Melbourne,Perth,Economy,893,2023-06-25,2023-07-24
+132,Emirates,Sydney,Singapore,Economy,212,2023-06-15,2023-07-15
+133,Virgin Australia,Melbourne,Dubai,Business,1611,2023-05-25,2023-12-15
+134,Jetstar,Melbourne,Perth,Economy,1450,2023-11-26,2023-08-11
+135,Jetstar,Sydney,Melbourne,Economy,641,2023-10-10,2023-02-05
+136,Jetstar,Sydney,Singapore,Business,746,2023-02-23,2023-06-29
+137,Singapore Airlines,Sydney,Brisbane,Business,678,2023-06-27,2023-04-23
+138,Singapore Airlines,Melbourne,Dubai,Economy,1188,2023-09-01,2023-08-10
+139,Virgin Australia,Melbourne,Perth,Economy,1415,2023-12-07,2023-01-22
+140,Jetstar,Sydney,Melbourne,Economy,124,2023-05-07,2023-07-23
+141,Jetstar,Sydney,Brisbane,Economy,1672,2023-09-28,2023-07-08
+142,Emirates,Sydney,Brisbane,Economy,100,2023-05-12,2023-10-14
+143,Singapore Airlines,Brisbane,Adelaide,Economy,1010,2023-04-03,2023-01-31
+144,Jetstar,Sydney,Singapore,Economy,1672,2023-03-14,2023-04-14
+145,Virgin Australia,Melbourne,Perth,Economy,240,2023-09-05,2023-06-04
+146,Virgin Australia,Sydney,Melbourne,Business,1867,2023-12-14,2023-06-08
+147,Jetstar,Brisbane,Adelaide,Economy,747,2023-09-30,2023-06-29
+148,Singapore Airlines,Sydney,Singapore,Economy,287,2023-02-12,2023-12-17
+149,Virgin Australia,Brisbane,Adelaide,Economy,1251,2023-02-10,2023-04-02
+150,Emirates,Melbourne,Dubai,Economy,300,2023-06-19,2023-10-03
+151,Virgin Australia,Sydney,Singapore,Economy,1250,2023-07-31,2023-06-26
+152,Qantas,Sydney,Singapore,Economy,356,2023-06-17,2023-01-28
+153,Qantas,Melbourne,Perth,Economy,1799,2023-02-08,2023-09-10
+154,Singapore Airlines,Sydney,Singapore,Economy,646,2023-09-02,2023-03-27
+155,Jetstar,Brisbane,Adelaide,Economy,293,2023-05-31,2023-06-06
+156,Singapore Airlines,Sydney,Singapore,Economy,802,2023-04-21,2023-11-20
+157,Singapore Airlines,Melbourne,Perth,Economy,1227,2023-02-16,2023-10-24
+158,Singapore Airlines,Melbourne,Perth,Economy,1658,2023-03-04,2023-10-10
+159,Singapore Airlines,Melbourne,Dubai,First,1388,2023-08-13,2023-09-12
+160,Emirates,Brisbane,Adelaide,Economy,901,2023-03-10,2023-09-16
+161,Emirates,Sydney,Brisbane,Economy,1041,2023-10-26,2023-06-26
+162,Virgin Australia,Sydney,Brisbane,Economy,1507,2023-10-17,2023-03-15
+163,Qantas,Sydney,Singapore,Economy,1383,2023-10-23,2023-01-20
+164,Singapore Airlines,Melbourne,Dubai,First,513,2023-07-22,2023-07-30
+165,Virgin Australia,Sydney,Melbourne,Economy,1481,2023-03-02,2023-03-13
+166,Qantas,Sydney,Singapore,Business,1198,2023-11-14,2023-11-15
+167,Jetstar,Melbourne,Dubai,Economy,1478,2023-11-10,2023-08-19
+168,Emirates,Brisbane,Adelaide,Economy,1707,2023-06-10,2023-02-09
+169,Qantas,Brisbane,Adelaide,Economy,1894,2023-11-27,2023-11-13
+170,Jetstar,Brisbane,Adelaide,Business,1009,2023-01-16,2023-01-19
+171,Qantas,Brisbane,Adelaide,Economy,287,2023-12-04,2023-02-03
+172,Emirates,Brisbane,Adelaide,Economy,1808,2023-04-04,2023-07-31
+173,Emirates,Melbourne,Dubai,First,1413,2023-10-31,2023-03-14
+174,Virgin Australia,Melbourne,Dubai,Economy,144,2023-05-18,2023-09-13
+175,Singapore Airlines,Melbourne,Perth,Economy,1696,2023-12-04,2023-06-09
+176,Qantas,Sydney,Brisbane,Economy,182,2023-02-07,2023-10-14
+177,Qantas,Brisbane,Adelaide,First,1246,2023-05-07,2023-09-20
+178,Jetstar,Sydney,Melbourne,Economy,457,2023-10-02,2023-01-28
+179,Emirates,Melbourne,Dubai,Business,1651,2023-06-13,2023-01-27
+180,Qantas,Sydney,Melbourne,Business,1189,2023-11-15,2023-02-27
+181,Emirates,Sydney,Melbourne,Economy,1035,2023-03-18,2023-02-02
+182,Qantas,Sydney,Melbourne,Economy,1780,2023-06-23,2023-03-18
+183,Virgin Australia,Melbourne,Perth,Economy,474,2023-12-24,2023-09-10
+184,Singapore Airlines,Melbourne,Dubai,Economy,261,2023-11-17,2023-12-17
+185,Qantas,Sydney,Melbourne,Business,1869,2023-04-01,2023-04-24
+186,Emirates,Brisbane,Adelaide,Business,1503,2023-08-26,2023-06-26
+187,Virgin Australia,Sydney,Singapore,Economy,1779,2023-09-21,2023-05-16
+188,Qantas,Sydney,Melbourne,Economy,1481,2023-06-28,2023-02-27
+189,Jetstar,Melbourne,Perth,Economy,1311,2023-07-28,2024-01-09
+190,Singapore Airlines,Melbourne,Dubai,Economy,421,2023-03-14,2023-11-27
+191,Qantas,Melbourne,Perth,Economy,549,2023-04-17,2023-06-08
+192,Virgin Australia,Sydney,Melbourne,Economy,1597,2023-12-11,2023-12-07
+193,Jetstar,Melbourne,Dubai,Economy,1136,2023-10-22,2024-01-12
+194,Virgin Australia,Sydney,Singapore,Economy,283,2023-10-11,2023-03-05
+195,Virgin Australia,Sydney,Melbourne,Economy,210,2023-12-19,2023-03-20
+196,Jetstar,Melbourne,Perth,Economy,607,2023-07-01,2024-01-04
+197,Virgin Australia,Sydney,Brisbane,Economy,1413,2023-02-06,2023-10-29
+198,Jetstar,Brisbane,Adelaide,Business,394,2023-05-17,2023-06-27
+199,Qantas,Melbourne,Perth,Economy,1574,2023-12-04,2023-06-04
+200,Jetstar,Melbourne,Dubai,Business,1003,2023-02-25,2023-11-24
+201,Jetstar,Sydney,Melbourne,Business,1338,2023-07-06,2023-05-22
+202,Singapore Airlines,Brisbane,Adelaide,Economy,1073,2023-12-07,2023-09-10
+203,Jetstar,Sydney,Melbourne,Business,731,2023-09-15,2023-12-04
+204,Jetstar,Melbourne,Dubai,Economy,1690,2023-02-27,2023-11-06
+205,Qantas,Sydney,Melbourne,Economy,1150,2023-12-29,2023-07-20
+206,Singapore Airlines,Sydney,Brisbane,Economy,1753,2023-05-03,2023-08-10
+207,Emirates,Brisbane,Adelaide,Economy,832,2023-07-07,2023-08-22
+208,Qantas,Brisbane,Adelaide,Economy,1354,2023-08-18,2023-07-23
+209,Qantas,Melbourne,Dubai,Economy,1688,2023-06-17,2023-12-26
+210,Emirates,Sydney,Brisbane,Economy,1930,2023-04-24,2023-10-25
+211,Jetstar,Melbourne,Perth,Economy,420,2023-09-09,2024-01-01
+212,Virgin Australia,Sydney,Melbourne,Economy,1012,2023-04-17,2023-09-08
+213,Singapore Airlines,Sydney,Singapore,Business,1356,2023-02-06,2023-07-27
+214,Virgin Australia,Sydney,Melbourne,Economy,1793,2023-12-01,2023-10-28
+215,Emirates,Sydney,Melbourne,Economy,536,2023-04-02,2023-09-30
+216,Qantas,Melbourne,Perth,Business,880,2023-01-18,2023-09-17
+217,Qantas,Sydney,Melbourne,Economy,1656,2023-12-20,2023-05-30
+218,Singapore Airlines,Sydney,Brisbane,Economy,1526,2023-03-04,2023-10-21
+219,Qantas,Sydney,Brisbane,Economy,1176,2023-05-30,2023-10-12
+220,Qantas,Brisbane,Adelaide,Economy,1910,2023-05-19,2023-07-04
+221,Singapore Airlines,Melbourne,Dubai,First,1436,2023-07-05,2023-06-22
+222,Singapore Airlines,Sydney,Singapore,Economy,1404,2023-07-04,2023-08-03
+223,Emirates,Sydney,Melbourne,Business,825,2023-07-24,2023-02-28
+224,Qantas,Sydney,Melbourne,Economy,130,2023-09-17,2023-10-05
+225,Qantas,Melbourne,Perth,Economy,436,2023-08-02,2023-03-26
+226,Emirates,Melbourne,Dubai,Economy,282,2023-09-13,2024-01-13
+227,Jetstar,Sydney,Brisbane,Economy,1146,2023-05-15,2023-04-27
+228,Jetstar,Sydney,Singapore,Economy,643,2023-03-02,2023-05-19
+229,Jetstar,Brisbane,Adelaide,Business,1569,2023-12-29,2023-11-23
+230,Emirates,Sydney,Brisbane,Business,1197,2023-11-06,2023-10-27
+231,Qantas,Melbourne,Dubai,Economy,1133,2023-03-29,2023-09-01
+232,Emirates,Brisbane,Adelaide,First,1607,2023-11-20,2023-06-09
+233,Emirates,Melbourne,Perth,Business,1579,2023-07-26,2023-07-30
+234,Jetstar,Melbourne,Perth,Economy,1689,2023-05-09,2023-08-23
+235,Virgin Australia,Sydney,Melbourne,Economy,1687,2023-11-07,2023-03-15
+236,Qantas,Melbourne,Dubai,Economy,759,2023-01-03,2023-04-22
+237,Jetstar,Sydney,Singapore,Economy,259,2023-08-30,2023-07-04
+238,Virgin Australia,Brisbane,Adelaide,Economy,1137,2023-05-01,2023-07-06
+239,Virgin Australia,Sydney,Brisbane,Economy,1301,2023-04-12,2023-06-14
+240,Singapore Airlines,Melbourne,Dubai,Business,511,2023-02-07,2023-12-30
+241,Qantas,Melbourne,Dubai,Economy,1111,2023-12-07,2023-05-16
+242,Virgin Australia,Melbourne,Perth,Economy,152,2023-05-13,2023-05-02
+243,Jetstar,Sydney,Melbourne,Business,507,2023-07-21,2023-01-18
+244,Singapore Airlines,Sydney,Melbourne,Business,946,2023-12-14,2023-04-17
+245,Qantas,Brisbane,Adelaide,Economy,1145,2023-01-21,2023-01-20
+246,Emirates,Melbourne,Perth,Business,1153,2023-08-30,2023-10-29
+247,Jetstar,Melbourne,Dubai,Economy,802,2023-04-19,2023-04-30
+248,Virgin Australia,Sydney,Singapore,Economy,359,2023-10-30,2023-06-09
+249,Virgin Australia,Melbourne,Perth,Economy,1328,2023-03-25,2023-10-12
+250,Jetstar,Brisbane,Adelaide,Economy,1182,2023-03-24,2023-04-20
+251,Virgin Australia,Brisbane,Adelaide,Economy,1594,2023-10-18,2023-08-31
+252,Singapore Airlines,Melbourne,Perth,Economy,875,2023-03-10,2023-08-04
+253,Qantas,Brisbane,Adelaide,Economy,1589,2023-05-09,2023-08-14
+254,Singapore Airlines,Melbourne,Perth,Economy,1135,2023-07-15,2023-01-20
+255,Virgin Australia,Sydney,Brisbane,Economy,1754,2023-05-20,2023-05-06
+256,Emirates,Melbourne,Perth,Business,1413,2023-10-10,2023-12-03
+257,Qantas,Melbourne,Perth,Economy,949,2023-11-08,2023-04-30
+258,Qantas,Brisbane,Adelaide,Economy,1883,2023-08-22,2023-06-02
+259,Jetstar,Brisbane,Adelaide,Economy,453,2023-01-23,2023-11-09
+260,Jetstar,Sydney,Melbourne,Economy,1762,2023-06-02,2023-04-20
+261,Emirates,Sydney,Melbourne,Economy,1198,2023-10-04,2023-12-17
+262,Qantas,Sydney,Brisbane,Business,972,2023-03-02,2023-11-07
+263,Emirates,Sydney,Melbourne,Economy,1839,2023-11-15,2023-08-16
+264,Jetstar,Melbourne,Perth,Economy,1684,2023-02-21,2023-11-01
+265,Jetstar,Brisbane,Adelaide,Economy,1714,2023-12-10,2023-02-05
+266,Qantas,Sydney,Melbourne,Economy,1564,2023-06-02,2023-07-26
+267,Singapore Airlines,Sydney,Melbourne,Economy,1090,2023-08-25,2023-06-13
+268,Virgin Australia,Sydney,Brisbane,Economy,1364,2023-11-07,2023-09-18
+269,Jetstar,Melbourne,Dubai,Economy,1117,2023-10-29,2023-10-08
+270,Jetstar,Sydney,Brisbane,Economy,1984,2023-02-01,2023-09-22
+271,Singapore Airlines,Melbourne,Perth,Economy,1277,2023-02-24,2023-01-17
+272,Singapore Airlines,Brisbane,Adelaide,Economy,1909,2023-12-18,2023-11-26
+273,Emirates,Sydney,Brisbane,Business,1219,2023-02-05,2023-03-31
+274,Emirates,Sydney,Melbourne,Business,1849,2023-04-20,2023-04-11
+275,Virgin Australia,Brisbane,Adelaide,Business,393,2023-06-26,2023-10-11
+276,Virgin Australia,Brisbane,Adelaide,Economy,308,2023-12-28,2023-08-27
+277,Qantas,Sydney,Melbourne,Economy,1466,2023-11-10,2023-02-01
+278,Emirates,Sydney,Brisbane,Economy,1211,2023-10-22,2023-05-07
+279,Jetstar,Sydney,Melbourne,Economy,917,2023-12-02,2023-09-22
+280,Emirates,Melbourne,Dubai,Economy,1899,2023-04-07,2023-09-04
+281,Jetstar,Brisbane,Adelaide,Economy,489,2023-08-01,2023-12-09
+282,Singapore Airlines,Sydney,Singapore,Economy,424,2023-11-13,2023-10-20
+283,Emirates,Sydney,Singapore,First,1039,2023-05-17,2023-08-04
+284,Singapore Airlines,Melbourne,Perth,Economy,988,2023-01-06,2023-04-07
+285,Virgin Australia,Sydney,Melbourne,Economy,1955,2023-04-19,2023-05-19
+286,Virgin Australia,Sydney,Melbourne,Economy,1280,2023-02-04,2023-07-08
+287,Qantas,Melbourne,Perth,Business,767,2023-02-08,2023-03-24
+288,Emirates,Melbourne,Perth,Economy,1774,2023-05-30,2023-03-02
+289,Singapore Airlines,Melbourne,Perth,Economy,732,2023-04-28,2023-09-27
+290,Jetstar,Brisbane,Adelaide,Economy,676,2023-09-18,2023-08-17
+291,Virgin Australia,Melbourne,Dubai,Economy,1742,2023-03-28,2023-02-13
+292,Virgin Australia,Sydney,Melbourne,Economy,1782,2023-03-17,2023-10-22
+293,Jetstar,Brisbane,Adelaide,Business,236,2023-11-09,2023-09-08
+294,Singapore Airlines,Melbourne,Perth,Economy,1797,2023-08-02,2023-09-19
+295,Singapore Airlines,Sydney,Melbourne,Economy,527,2023-10-12,2023-02-08
+296,Emirates,Brisbane,Adelaide,Economy,1575,2023-08-27,2023-03-29
+297,Emirates,Melbourne,Dubai,Economy,711,2023-06-14,2023-08-08
+298,Qantas,Brisbane,Adelaide,Economy,1973,2023-03-28,2023-11-24
+299,Virgin Australia,Melbourne,Dubai,Economy,1010,2023-05-21,2023-04-18
+300,Emirates,Melbourne,Perth,Economy,918,2023-06-09,2023-05-21
+301,Singapore Airlines,Melbourne,Dubai,Economy,240,2023-02-15,2023-02-08
+302,Jetstar,Sydney,Melbourne,Economy,1206,2023-04-22,2023-12-14
+303,Singapore Airlines,Melbourne,Perth,Economy,276,2023-02-14,2024-01-04
+304,Virgin Australia,Sydney,Melbourne,Economy,297,2023-09-04,2023-05-10
+305,Singapore Airlines,Sydney,Singapore,Business,723,2023-04-14,2023-03-03
+306,Qantas,Sydney,Brisbane,Economy,1691,2023-03-26,2023-08-28
+307,Virgin Australia,Melbourne,Dubai,Economy,790,2023-05-14,2023-10-07
+308,Jetstar,Sydney,Brisbane,Business,1544,2023-04-18,2023-04-23
+309,Qantas,Sydney,Brisbane,Economy,500,2023-01-18,2023-01-25
+310,Virgin Australia,Melbourne,Dubai,Business,1821,2023-04-04,2023-04-09
+311,Jetstar,Melbourne,Perth,Economy,570,2023-05-30,2023-08-16
+312,Qantas,Sydney,Singapore,First,317,2023-09-03,2023-07-06
+313,Qantas,Sydney,Melbourne,Economy,1028,2023-10-16,2023-08-11
+314,Virgin Australia,Brisbane,Adelaide,Economy,1951,2023-07-28,2023-03-19
+315,Emirates,Sydney,Melbourne,Economy,1852,2023-05-06,2023-09-29
+316,Qantas,Brisbane,Adelaide,Business,731,2023-08-23,2023-12-12
+317,Qantas,Sydney,Melbourne,Business,1050,2023-05-02,2023-05-15
+318,Jetstar,Melbourne,Dubai,Economy,1005,2023-05-18,2023-11-08
+319,Singapore Airlines,Sydney,Singapore,Economy,274,2023-04-25,2023-03-09
+320,Virgin Australia,Brisbane,Adelaide,Business,122,2023-06-11,2023-12-11
+321,Virgin Australia,Melbourne,Perth,Economy,1848,2023-07-20,2023-10-13
+322,Emirates,Sydney,Melbourne,Business,334,2023-08-22,2023-09-12
+323,Emirates,Sydney,Melbourne,Business,1136,2023-01-28,2023-09-14
+324,Virgin Australia,Brisbane,Adelaide,Economy,1224,2023-01-11,2023-02-01
+325,Emirates,Melbourne,Perth,Economy,1028,2023-07-25,2023-07-20
+326,Jetstar,Melbourne,Perth,Economy,1659,2023-06-16,2023-12-26
+327,Virgin Australia,Melbourne,Dubai,Economy,1999,2023-09-04,2023-06-07
+328,Emirates,Melbourne,Dubai,Business,622,2023-02-16,2023-10-03
+329,Virgin Australia,Melbourne,Dubai,Economy,1908,2023-09-03,2024-01-13
+330,Singapore Airlines,Melbourne,Dubai,Business,1575,2023-05-07,2023-09-10
+331,Qantas,Melbourne,Dubai,Economy,530,2023-05-27,2023-11-14
+332,Virgin Australia,Melbourne,Dubai,First,892,2023-04-28,2023-11-08
+333,Qantas,Sydney,Singapore,Economy,1729,2023-06-01,2023-03-31
+334,Emirates,Melbourne,Perth,Economy,1836,2023-03-13,2023-07-21
+335,Qantas,Melbourne,Dubai,Economy,632,2023-12-29,2023-12-13
+336,Virgin Australia,Melbourne,Perth,Business,1975,2023-05-17,2023-09-17
+337,Singapore Airlines,Melbourne,Perth,Economy,1078,2023-06-24,2023-05-24
+338,Emirates,Sydney,Brisbane,Business,1846,2023-10-16,2023-11-25
+339,Virgin Australia,Sydney,Singapore,Economy,1775,2023-01-19,2023-10-24
+340,Emirates,Melbourne,Dubai,Economy,1416,2023-07-14,2023-04-03
+341,Jetstar,Sydney,Melbourne,Economy,909,2023-11-26,2023-03-27
+342,Qantas,Brisbane,Adelaide,Economy,1012,2023-06-24,2023-10-04
+343,Jetstar,Sydney,Melbourne,Economy,1224,2023-12-20,2023-07-24
+344,Virgin Australia,Sydney,Singapore,First,1625,2023-05-21,2023-03-18
+345,Singapore Airlines,Brisbane,Adelaide,First,1427,2023-09-03,2023-01-26
+346,Emirates,Sydney,Singapore,Business,970,2023-04-03,2023-06-04
+347,Qantas,Melbourne,Perth,Business,639,2023-08-27,2023-09-25
+348,Emirates,Brisbane,Adelaide,Economy,1123,2023-07-24,2023-02-26
+349,Virgin Australia,Melbourne,Perth,Economy,1676,2023-02-17,2023-01-31
+350,Emirates,Sydney,Melbourne,Economy,1478,2023-09-02,2023-03-18
+351,Qantas,Sydney,Melbourne,Business,1426,2023-11-16,2023-09-24
+352,Virgin Australia,Brisbane,Adelaide,Economy,1619,2023-11-13,2023-11-02
+353,Emirates,Brisbane,Adelaide,Economy,1781,2023-10-22,2023-01-22
+354,Singapore Airlines,Melbourne,Dubai,Economy,1891,2023-05-08,2023-12-05
+355,Virgin Australia,Sydney,Singapore,Economy,326,2023-12-10,2023-04-14
+356,Virgin Australia,Melbourne,Dubai,Business,1359,2023-10-09,2023-08-10
+357,Singapore Airlines,Sydney,Singapore,Business,972,2023-01-17,2023-11-02
+358,Jetstar,Melbourne,Dubai,Economy,991,2023-03-12,2023-10-25
+359,Qantas,Melbourne,Perth,First,1578,2023-09-26,2023-05-12
+360,Jetstar,Brisbane,Adelaide,Economy,1136,2023-11-21,2023-12-29
+361,Emirates,Sydney,Melbourne,Economy,309,2023-10-09,2023-07-08
+362,Singapore Airlines,Sydney,Singapore,Economy,840,2023-11-01,2023-03-31
+363,Jetstar,Sydney,Singapore,Economy,496,2023-01-07,2023-04-25
+364,Virgin Australia,Sydney,Melbourne,Economy,1223,2023-11-10,2023-06-14
+365,Emirates,Melbourne,Dubai,First,130,2023-11-01,2023-10-11
+366,Emirates,Sydney,Singapore,Economy,997,2023-04-13,2023-03-26
+367,Jetstar,Melbourne,Perth,Business,1651,2023-11-05,2023-07-13
+368,Jetstar,Brisbane,Adelaide,Economy,748,2023-07-12,2023-05-18
+369,Singapore Airlines,Sydney,Melbourne,Economy,428,2023-08-29,2023-11-03
+370,Qantas,Brisbane,Adelaide,Economy,1289,2023-03-03,2023-10-26
+371,Jetstar,Sydney,Singapore,Economy,1582,2023-01-17,2023-07-28
+372,Jetstar,Sydney,Singapore,Economy,1945,2023-06-20,2023-08-30
+373,Virgin Australia,Sydney,Melbourne,Business,1051,2023-01-25,2023-10-16
+374,Emirates,Melbourne,Perth,Economy,1223,2023-09-08,2023-04-30
+375,Qantas,Sydney,Brisbane,Economy,720,2023-09-10,2023-02-04
+376,Virgin Australia,Sydney,Melbourne,Economy,1978,2023-07-26,2023-03-19
+377,Singapore Airlines,Sydney,Brisbane,Economy,1296,2023-01-29,2023-06-28
+378,Singapore Airlines,Melbourne,Dubai,Economy,1872,2023-04-27,2023-02-10
+379,Jetstar,Sydney,Brisbane,Economy,261,2023-10-09,2023-11-21
+380,Jetstar,Melbourne,Perth,Economy,1851,2023-05-24,2023-10-26
+381,Singapore Airlines,Melbourne,Dubai,Economy,875,2023-01-25,2023-06-11
+382,Jetstar,Sydney,Brisbane,Economy,1386,2023-11-06,2023-10-22
+383,Qantas,Melbourne,Dubai,Economy,1927,2023-06-05,2023-12-06
+384,Jetstar,Sydney,Brisbane,Economy,373,2023-03-14,2023-11-29
+385,Emirates,Melbourne,Perth,Economy,1126,2023-04-30,2023-06-27
+386,Jetstar,Sydney,Brisbane,Business,1151,2023-11-08,2023-08-26
+387,Virgin Australia,Sydney,Brisbane,Economy,425,2023-11-17,2023-10-13
+388,Qantas,Sydney,Brisbane,Economy,1039,2023-04-03,2023-06-09
+389,Virgin Australia,Sydney,Melbourne,Economy,1272,2023-03-27,2024-01-05
+390,Virgin Australia,Sydney,Melbourne,First,639,2023-12-02,2023-02-13
+391,Emirates,Sydney,Melbourne,Economy,587,2023-12-30,2023-02-28
+392,Qantas,Melbourne,Perth,Economy,921,2023-04-28,2023-10-16
+393,Qantas,Melbourne,Dubai,Business,1561,2023-08-21,2023-02-17
+394,Qantas,Sydney,Singapore,Economy,1188,2023-07-18,2023-06-04
+395,Qantas,Sydney,Brisbane,Economy,455,2023-07-25,2023-11-28
+396,Qantas,Sydney,Brisbane,Economy,1656,2023-12-05,2023-08-23
+397,Emirates,Melbourne,Perth,Economy,1375,2023-05-27,2024-01-05
+398,Jetstar,Sydney,Brisbane,First,334,2023-09-28,2023-02-05
+399,Virgin Australia,Sydney,Melbourne,Business,326,2023-05-19,2023-07-13
+400,Qantas,Sydney,Singapore,Economy,1648,2023-06-30,2023-12-09
+401,Jetstar,Brisbane,Adelaide,Economy,1436,2023-01-30,2023-09-02
+402,Jetstar,Sydney,Brisbane,Economy,148,2023-02-26,2023-02-21
+403,Virgin Australia,Sydney,Melbourne,Economy,217,2023-08-20,2023-03-25
+404,Emirates,Brisbane,Adelaide,Business,153,2023-05-26,2023-05-10
+405,Singapore Airlines,Sydney,Singapore,Economy,1773,2023-02-17,2023-09-10
+406,Singapore Airlines,Brisbane,Adelaide,Economy,664,2023-07-13,2023-12-15
+407,Jetstar,Sydney,Melbourne,Business,1167,2023-08-12,2023-06-11
+408,Virgin Australia,Melbourne,Dubai,Economy,1938,2023-05-16,2023-01-23
+409,Singapore Airlines,Melbourne,Dubai,Economy,152,2023-01-22,2023-10-29
+410,Jetstar,Brisbane,Adelaide,Economy,1709,2023-01-06,2023-03-05
+411,Emirates,Melbourne,Perth,First,657,2023-07-23,2023-12-18
+412,Singapore Airlines,Brisbane,Adelaide,Economy,1648,2023-08-27,2023-01-19
+413,Jetstar,Sydney,Brisbane,Economy,1800,2023-07-04,2023-12-23
+414,Jetstar,Sydney,Brisbane,Economy,1225,2023-12-26,2023-05-20
+415,Qantas,Melbourne,Dubai,Economy,1915,2023-10-19,2023-03-30
+416,Emirates,Melbourne,Perth,Business,1893,2023-12-01,2023-06-28
+417,Qantas,Sydney,Melbourne,Business,1972,2023-08-08,2023-10-19
+418,Virgin Australia,Sydney,Brisbane,Economy,967,2023-04-26,2023-12-04
+419,Qantas,Melbourne,Dubai,Economy,497,2023-11-09,2023-11-10
+420,Qantas,Sydney,Singapore,Economy,1261,2023-02-18,2023-10-31
+421,Singapore Airlines,Melbourne,Dubai,Economy,774,2023-06-22,2023-04-01
+422,Jetstar,Sydney,Brisbane,Economy,486,2023-03-23,2023-11-08
+423,Emirates,Sydney,Brisbane,Business,210,2023-11-18,2023-05-31
+424,Qantas,Melbourne,Dubai,Economy,713,2023-11-29,2023-04-30
+425,Emirates,Sydney,Melbourne,Economy,116,2023-02-14,2023-04-19
+426,Qantas,Brisbane,Adelaide,Economy,1903,2023-12-01,2023-05-29
+427,Virgin Australia,Sydney,Brisbane,Business,1305,2023-01-20,2023-03-23
+428,Qantas,Melbourne,Dubai,Business,983,2023-08-09,2023-06-10
+429,Singapore Airlines,Melbourne,Dubai,Business,1659,2023-05-03,2023-06-22
+430,Jetstar,Melbourne,Perth,Economy,640,2023-08-22,2023-06-26
+431,Virgin Australia,Brisbane,Adelaide,Economy,270,2023-08-09,2023-12-21
+432,Qantas,Sydney,Singapore,Business,508,2023-11-19,2023-07-22
+433,Emirates,Sydney,Melbourne,Economy,839,2023-12-05,2023-12-19
+434,Virgin Australia,Sydney,Singapore,Economy,1501,2023-01-03,2023-04-19
+435,Virgin Australia,Brisbane,Adelaide,Business,1311,2023-07-01,2023-07-14
+436,Qantas,Brisbane,Adelaide,Business,957,2023-07-25,2023-10-29
+437,Virgin Australia,Brisbane,Adelaide,Economy,329,2023-11-16,2023-12-02
+438,Emirates,Sydney,Singapore,Economy,1956,2023-02-09,2023-07-20
+439,Virgin Australia,Brisbane,Adelaide,Economy,1975,2023-02-28,2023-06-01
+440,Emirates,Melbourne,Dubai,Economy,218,2023-03-03,2023-05-24
+441,Qantas,Sydney,Singapore,Economy,1279,2023-05-12,2023-07-27
+442,Jetstar,Brisbane,Adelaide,Business,883,2023-03-01,2023-11-26
+443,Virgin Australia,Melbourne,Dubai,Business,1810,2023-11-27,2023-10-14
+444,Jetstar,Melbourne,Perth,Business,564,2023-05-02,2024-01-01
+445,Emirates,Brisbane,Adelaide,Economy,203,2023-04-17,2023-06-07
+446,Virgin Australia,Sydney,Singapore,Business,1727,2023-04-06,2023-01-30
+447,Singapore Airlines,Sydney,Brisbane,Business,797,2023-12-13,2023-11-12
+448,Jetstar,Brisbane,Adelaide,Economy,1918,2023-08-23,2023-09-16
+449,Virgin Australia,Sydney,Brisbane,Business,1625,2023-03-03,2023-05-01
+450,Jetstar,Melbourne,Dubai,Business,1816,2023-09-13,2023-04-12
+451,Virgin Australia,Melbourne,Perth,Economy,1805,2023-02-18,2023-05-23
+452,Qantas,Sydney,Melbourne,Economy,1822,2023-12-14,2023-12-21
+453,Jetstar,Melbourne,Perth,Economy,274,2023-06-08,2023-01-18
+454,Singapore Airlines,Brisbane,Adelaide,Economy,1857,2023-05-04,2023-12-07
+455,Singapore Airlines,Sydney,Brisbane,Economy,844,2023-11-13,2023-11-16
+456,Emirates,Sydney,Brisbane,Business,1797,2023-07-26,2023-04-19
+457,Virgin Australia,Sydney,Singapore,Economy,1544,2023-02-17,2023-08-11
+458,Jetstar,Sydney,Brisbane,Economy,1257,2023-05-16,2023-08-27
+459,Emirates,Sydney,Singapore,Economy,1514,2023-07-20,2023-12-28
+460,Jetstar,Melbourne,Dubai,Economy,1859,2023-09-07,2023-12-01
+461,Virgin Australia,Sydney,Melbourne,Economy,1624,2023-11-10,2023-03-02
+462,Singapore Airlines,Brisbane,Adelaide,Economy,764,2023-12-23,2023-07-14
+463,Qantas,Sydney,Singapore,Economy,132,2023-11-14,2023-04-30
+464,Singapore Airlines,Sydney,Melbourne,Economy,154,2023-10-22,2023-08-01
+465,Emirates,Sydney,Brisbane,Economy,618,2023-11-10,2023-04-30
+466,Qantas,Sydney,Brisbane,Economy,855,2023-07-28,2023-10-21
+467,Emirates,Sydney,Melbourne,Business,1948,2023-12-21,2023-10-01
+468,Virgin Australia,Sydney,Brisbane,Economy,1761,2023-07-30,2023-05-02
+469,Qantas,Melbourne,Dubai,Business,111,2023-07-11,2023-02-02
+470,Emirates,Melbourne,Dubai,Economy,1651,2023-02-13,2023-11-06
+471,Virgin Australia,Sydney,Melbourne,Economy,819,2023-01-29,2023-11-16
+472,Singapore Airlines,Sydney,Singapore,Business,654,2023-02-28,2023-07-04
+473,Virgin Australia,Sydney,Singapore,Economy,472,2023-03-12,2023-12-11
+474,Jetstar,Sydney,Melbourne,Economy,583,2023-04-02,2023-07-28
+475,Virgin Australia,Sydney,Singapore,Economy,1072,2023-09-22,2023-01-26
+476,Virgin Australia,Sydney,Singapore,Economy,1770,2023-08-08,2023-07-28
+477,Jetstar,Melbourne,Dubai,Economy,1351,2023-08-03,2023-10-24
+478,Emirates,Sydney,Singapore,Economy,722,2023-10-04,2023-07-15
+479,Emirates,Melbourne,Perth,Economy,406,2023-03-05,2023-11-15
+480,Virgin Australia,Brisbane,Adelaide,Economy,556,2023-12-12,2023-06-07
+481,Jetstar,Sydney,Brisbane,Economy,259,2023-10-19,2023-11-26
+482,Jetstar,Melbourne,Perth,Business,430,2023-09-02,2023-07-15
+483,Singapore Airlines,Sydney,Singapore,First,875,2023-03-03,2023-02-13
+484,Emirates,Melbourne,Dubai,Economy,324,2023-11-28,2023-04-08
+485,Qantas,Sydney,Melbourne,Business,1082,2023-06-19,2023-06-29
+486,Emirates,Sydney,Singapore,Economy,828,2023-09-26,2023-10-25
+487,Emirates,Melbourne,Dubai,Economy,1627,2023-09-24,2023-10-22
+488,Singapore Airlines,Brisbane,Adelaide,Economy,1579,2023-02-23,2023-04-20
+489,Qantas,Sydney,Singapore,Business,1168,2023-01-16,2023-10-07
+490,Singapore Airlines,Sydney,Melbourne,Economy,1337,2023-01-08,2023-11-08
+491,Qantas,Melbourne,Dubai,Economy,1182,2023-04-14,2023-11-06
+492,Virgin Australia,Melbourne,Dubai,Economy,743,2023-02-28,2023-08-27
+493,Qantas,Melbourne,Dubai,Business,715,2023-11-09,2023-12-13
+494,Singapore Airlines,Brisbane,Adelaide,Business,294,2023-02-09,2024-01-10
+495,Emirates,Sydney,Singapore,Business,588,2023-08-25,2023-02-25
+496,Qantas,Brisbane,Adelaide,Economy,256,2023-04-04,2023-11-13
+497,Qantas,Sydney,Brisbane,Economy,709,2023-08-10,2023-09-17
+498,Jetstar,Sydney,Brisbane,Economy,1349,2023-07-23,2023-08-10
+499,Emirates,Sydney,Singapore,Economy,511,2023-05-18,2023-09-08
+500,Virgin Australia,Brisbane,Adelaide,Economy,1328,2023-10-27,2023-02-05
+501,Singapore Airlines,Sydney,Melbourne,Economy,1202,2023-07-26,2023-07-18
+502,Virgin Australia,Melbourne,Dubai,First,1247,2023-12-02,2023-09-13
+503,Emirates,Melbourne,Dubai,Business,570,2023-03-22,2024-01-12
+504,Qantas,Sydney,Singapore,Business,1341,2023-08-06,2023-10-24
+505,Qantas,Sydney,Brisbane,First,615,2023-01-02,2023-02-24
+506,Emirates,Sydney,Brisbane,Economy,1725,2023-06-27,2023-12-16
+507,Qantas,Melbourne,Dubai,Economy,1227,2023-12-12,2023-06-25
+508,Qantas,Sydney,Singapore,First,492,2023-10-06,2023-06-23
+509,Qantas,Brisbane,Adelaide,Economy,730,2023-05-26,2023-04-13
+510,Singapore Airlines,Sydney,Brisbane,Business,1768,2023-11-14,2023-12-02
+511,Singapore Airlines,Brisbane,Adelaide,Economy,1947,2023-08-12,2023-01-26
+512,Jetstar,Sydney,Brisbane,Economy,707,2023-03-03,2023-03-28
+513,Virgin Australia,Sydney,Brisbane,Economy,1079,2023-10-21,2023-03-31
+514,Emirates,Melbourne,Perth,Business,533,2023-08-27,2023-12-26
+515,Emirates,Sydney,Brisbane,Business,1454,2023-07-14,2023-08-03
+516,Emirates,Sydney,Melbourne,Economy,1266,2023-06-15,2023-01-24
+517,Jetstar,Sydney,Singapore,Business,1923,2023-08-10,2024-01-01
+518,Singapore Airlines,Sydney,Singapore,Economy,639,2023-03-02,2023-08-28
+519,Jetstar,Brisbane,Adelaide,Economy,377,2023-05-09,2023-07-09
+520,Emirates,Sydney,Brisbane,Economy,332,2023-06-22,2023-10-17
+521,Virgin Australia,Sydney,Melbourne,Economy,1652,2023-06-05,2023-02-22
+522,Qantas,Brisbane,Adelaide,Economy,1694,2023-04-20,2023-03-15
+523,Singapore Airlines,Melbourne,Perth,Business,1213,2023-09-26,2023-03-21
+524,Singapore Airlines,Brisbane,Adelaide,Business,1615,2023-12-22,2023-12-01
+525,Jetstar,Brisbane,Adelaide,Economy,1322,2023-10-05,2023-05-18
+526,Singapore Airlines,Sydney,Brisbane,Economy,461,2023-03-15,2023-06-27
+527,Emirates,Melbourne,Perth,Business,1564,2023-07-26,2023-06-22
+528,Emirates,Brisbane,Adelaide,Business,125,2023-10-06,2023-03-12
+529,Jetstar,Sydney,Melbourne,Business,1148,2023-11-22,2023-04-02
+530,Emirates,Sydney,Melbourne,Economy,1517,2023-12-06,2023-07-27
+531,Virgin Australia,Sydney,Singapore,Economy,606,2023-12-23,2023-10-26
+532,Jetstar,Melbourne,Perth,Economy,1424,2023-12-06,2023-01-29
+533,Virgin Australia,Melbourne,Perth,Economy,1462,2023-07-23,2023-01-26
+534,Qantas,Sydney,Singapore,Economy,366,2023-06-10,2023-04-25
+535,Virgin Australia,Brisbane,Adelaide,Business,560,2023-01-28,2023-06-19
+536,Qantas,Melbourne,Perth,Economy,1816,2023-09-14,2023-12-20
+537,Qantas,Sydney,Melbourne,Economy,555,2023-06-14,2023-05-19
+538,Virgin Australia,Sydney,Melbourne,Economy,1483,2023-03-04,2024-01-08
+539,Jetstar,Sydney,Brisbane,Economy,1191,2023-01-22,2023-10-21
+540,Emirates,Melbourne,Perth,Economy,1106,2023-03-11,2023-05-04
+541,Emirates,Brisbane,Adelaide,Economy,962,2023-04-06,2023-12-14
+542,Qantas,Sydney,Singapore,Economy,1535,2023-06-12,2024-01-06
+543,Qantas,Sydney,Singapore,Business,590,2023-03-20,2023-06-09
+544,Jetstar,Brisbane,Adelaide,First,1956,2023-01-05,2023-08-18
+545,Singapore Airlines,Melbourne,Dubai,Economy,1172,2023-11-12,2023-06-25
+546,Virgin Australia,Sydney,Brisbane,Economy,1810,2023-04-30,2023-05-22
+547,Qantas,Sydney,Singapore,Business,663,2023-10-29,2023-11-24
+548,Emirates,Melbourne,Perth,Economy,1225,2023-06-27,2023-12-12
+549,Jetstar,Sydney,Brisbane,Economy,315,2023-06-25,2023-06-13
+550,Virgin Australia,Melbourne,Perth,Business,1561,2023-08-05,2023-02-19
+551,Jetstar,Sydney,Melbourne,Economy,1823,2023-02-25,2023-07-06
+552,Virgin Australia,Sydney,Brisbane,Economy,1692,2023-07-06,2023-02-05
+553,Virgin Australia,Sydney,Singapore,Economy,658,2023-08-20,2023-08-08
+554,Qantas,Sydney,Brisbane,Economy,258,2023-09-12,2023-05-21
+555,Jetstar,Sydney,Brisbane,Economy,588,2023-04-14,2023-12-16
+556,Jetstar,Sydney,Brisbane,Business,785,2023-03-18,2024-01-05
+557,Emirates,Melbourne,Dubai,Economy,1365,2023-08-18,2023-08-19
+558,Emirates,Sydney,Brisbane,Economy,893,2023-09-15,2023-04-20
+559,Qantas,Melbourne,Perth,Business,1876,2023-09-21,2023-06-27
+560,Qantas,Sydney,Melbourne,Economy,104,2023-11-27,2023-06-11
+561,Singapore Airlines,Brisbane,Adelaide,Economy,1719,2023-07-01,2023-02-01
+562,Emirates,Sydney,Brisbane,Business,1943,2023-09-13,2023-11-04
+563,Virgin Australia,Sydney,Singapore,Economy,460,2023-02-07,2023-07-28
+564,Jetstar,Sydney,Brisbane,Business,558,2023-06-25,2023-06-14
+565,Qantas,Sydney,Singapore,Business,347,2023-01-27,2024-01-14
+566,Jetstar,Melbourne,Perth,Economy,1689,2023-10-03,2023-05-17
+567,Jetstar,Sydney,Singapore,Economy,1796,2023-05-20,2023-07-20
+568,Singapore Airlines,Brisbane,Adelaide,First,1045,2023-10-26,2023-06-12
+569,Emirates,Sydney,Melbourne,Economy,521,2023-10-14,2023-04-28
+570,Qantas,Sydney,Singapore,Business,1861,2023-04-01,2023-09-14
+571,Jetstar,Sydney,Singapore,Economy,114,2023-03-02,2023-09-02
+572,Qantas,Sydney,Melbourne,Economy,835,2023-12-31,2023-08-08
+573,Virgin Australia,Brisbane,Adelaide,Economy,1696,2023-12-13,2023-07-31
+574,Singapore Airlines,Sydney,Brisbane,Business,1245,2023-06-12,2023-12-17
+575,Virgin Australia,Sydney,Singapore,First,376,2023-12-17,2023-04-11
+576,Qantas,Sydney,Melbourne,Economy,1681,2023-05-23,2023-06-05
+577,Qantas,Melbourne,Perth,Economy,552,2023-09-10,2023-11-27
+578,Emirates,Sydney,Melbourne,Business,1513,2023-09-26,2023-08-01
+579,Jetstar,Melbourne,Perth,Economy,1417,2023-10-18,2023-03-01
+580,Jetstar,Brisbane,Adelaide,Economy,1697,2023-07-06,2023-10-29
+581,Virgin Australia,Sydney,Brisbane,Economy,697,2023-10-31,2023-01-29
+582,Singapore Airlines,Sydney,Melbourne,Economy,545,2023-10-18,2023-02-27
+583,Jetstar,Melbourne,Dubai,First,309,2023-03-27,2023-07-02
+584,Emirates,Sydney,Singapore,Economy,1713,2023-06-15,2023-11-20
+585,Virgin Australia,Brisbane,Adelaide,Economy,813,2023-04-24,2023-02-27
+586,Virgin Australia,Sydney,Melbourne,Economy,401,2023-12-22,2023-04-22
+587,Emirates,Sydney,Singapore,Business,1346,2023-07-02,2023-10-02
+588,Singapore Airlines,Sydney,Melbourne,Economy,1857,2023-07-26,2023-05-03
+589,Emirates,Melbourne,Perth,Economy,102,2023-09-13,2023-10-24
+590,Singapore Airlines,Sydney,Melbourne,Economy,1089,2023-08-23,2023-12-23
+591,Emirates,Melbourne,Dubai,Business,1641,2023-12-21,2023-04-28
+592,Emirates,Sydney,Melbourne,Economy,1216,2023-01-03,2023-09-27
+593,Qantas,Sydney,Melbourne,Economy,619,2023-07-27,2023-08-08
+594,Virgin Australia,Melbourne,Dubai,Economy,1551,2023-07-16,2023-12-15
+595,Emirates,Brisbane,Adelaide,Economy,592,2023-12-07,2023-02-26
+596,Emirates,Sydney,Melbourne,Economy,1358,2023-05-05,2024-01-02
+597,Jetstar,Melbourne,Dubai,Business,719,2023-05-18,2023-09-16
+598,Virgin Australia,Sydney,Singapore,Economy,1284,2023-12-05,2023-10-28
+599,Jetstar,Melbourne,Perth,Business,1844,2023-01-25,2024-01-04
+600,Virgin Australia,Melbourne,Perth,Economy,1875,2023-03-09,2023-10-14
+601,Jetstar,Sydney,Melbourne,Business,430,2023-03-02,2023-04-07
+602,Emirates,Brisbane,Adelaide,Economy,432,2023-01-29,2023-05-04
+603,Emirates,Brisbane,Adelaide,Economy,149,2023-01-19,2023-07-23
+604,Qantas,Sydney,Singapore,First,1646,2023-06-20,2023-10-29
+605,Jetstar,Sydney,Melbourne,Business,962,2023-03-15,2023-09-22
+606,Singapore Airlines,Melbourne,Perth,Economy,1791,2023-03-02,2023-08-14
+607,Qantas,Brisbane,Adelaide,Economy,1615,2023-06-02,2023-11-01
+608,Jetstar,Sydney,Melbourne,Business,1705,2023-10-03,2023-05-27
+609,Jetstar,Brisbane,Adelaide,Economy,1804,2023-02-17,2023-08-03
+610,Qantas,Melbourne,Dubai,Business,371,2023-07-30,2023-10-26
+611,Emirates,Brisbane,Adelaide,Business,679,2023-12-09,2023-12-06
+612,Jetstar,Melbourne,Perth,Economy,1990,2023-05-19,2023-04-19
+613,Emirates,Sydney,Brisbane,Economy,1375,2023-04-20,2023-10-19
+614,Qantas,Sydney,Singapore,Economy,659,2023-07-02,2023-12-05
+615,Emirates,Sydney,Singapore,Economy,795,2023-01-28,2023-08-21
+616,Virgin Australia,Melbourne,Perth,Economy,1955,2023-07-16,2023-04-13
+617,Singapore Airlines,Brisbane,Adelaide,Business,1822,2023-07-10,2023-03-27
+618,Jetstar,Sydney,Melbourne,Economy,1213,2023-11-11,2023-09-18
+619,Singapore Airlines,Brisbane,Adelaide,Business,545,2023-02-20,2023-05-23
+620,Emirates,Melbourne,Perth,Economy,1116,2023-05-29,2023-08-14
+621,Jetstar,Sydney,Singapore,Economy,1455,2023-09-25,2023-12-23
+622,Emirates,Brisbane,Adelaide,Economy,1262,2023-02-19,2023-04-20
+623,Virgin Australia,Sydney,Singapore,Economy,456,2023-09-03,2023-03-30
+624,Qantas,Sydney,Melbourne,Economy,1724,2023-04-23,2023-03-09
+625,Jetstar,Sydney,Singapore,Economy,373,2023-06-19,2023-12-24
+626,Virgin Australia,Sydney,Singapore,Business,1142,2023-06-15,2023-03-09
+627,Virgin Australia,Sydney,Brisbane,Economy,410,2023-01-14,2023-08-20
+628,Jetstar,Sydney,Brisbane,Economy,969,2023-07-22,2023-01-30
+629,Emirates,Melbourne,Dubai,Economy,985,2023-10-15,2023-04-23
+630,Virgin Australia,Sydney,Brisbane,Economy,253,2023-07-08,2023-02-03
+631,Singapore Airlines,Sydney,Singapore,Economy,1513,2023-06-04,2023-03-01
+632,Virgin Australia,Melbourne,Perth,Economy,1383,2023-02-24,2023-07-26
+633,Emirates,Sydney,Singapore,Economy,719,2023-07-01,2023-03-13
+634,Emirates,Melbourne,Perth,Economy,982,2023-07-29,2023-05-05
+635,Singapore Airlines,Melbourne,Perth,Economy,896,2023-03-16,2023-05-23
+636,Virgin Australia,Sydney,Brisbane,Business,1694,2023-10-04,2023-12-17
+637,Emirates,Brisbane,Adelaide,Economy,224,2023-05-13,2023-07-27
+638,Jetstar,Sydney,Melbourne,Economy,1477,2023-12-09,2023-12-20
+639,Qantas,Sydney,Brisbane,Economy,1396,2023-02-28,2023-12-06
+640,Qantas,Sydney,Brisbane,Economy,718,2023-12-11,2023-01-22
+641,Qantas,Brisbane,Adelaide,Business,1934,2023-07-01,2023-02-12
+642,Virgin Australia,Sydney,Melbourne,Economy,344,2023-12-05,2023-05-06
+643,Singapore Airlines,Sydney,Singapore,Economy,947,2023-11-17,2023-06-24
+644,Emirates,Melbourne,Dubai,Economy,549,2023-03-05,2023-05-25
+645,Jetstar,Melbourne,Dubai,Economy,1029,2023-11-23,2023-07-21
+646,Jetstar,Sydney,Singapore,Economy,1370,2023-09-17,2023-06-26
+647,Virgin Australia,Sydney,Brisbane,Economy,619,2023-07-12,2023-07-30
+648,Qantas,Sydney,Melbourne,Business,1264,2023-05-23,2024-01-13
+649,Virgin Australia,Sydney,Brisbane,Economy,461,2023-04-14,2023-08-06
+650,Singapore Airlines,Melbourne,Perth,Economy,107,2023-08-02,2023-08-14
+651,Singapore Airlines,Sydney,Brisbane,Economy,577,2023-08-30,2023-05-03
+652,Emirates,Sydney,Brisbane,Economy,1475,2023-07-28,2023-10-17
+653,Emirates,Sydney,Singapore,Economy,594,2023-04-03,2023-03-28
+654,Singapore Airlines,Sydney,Singapore,Business,1729,2023-05-22,2023-06-30
+655,Singapore Airlines,Sydney,Singapore,Business,932,2023-04-22,2023-10-01
+656,Singapore Airlines,Melbourne,Dubai,Economy,1550,2023-02-28,2023-09-14
+657,Virgin Australia,Melbourne,Perth,Business,1162,2023-02-12,2023-10-16
+658,Singapore Airlines,Sydney,Singapore,First,692,2023-07-26,2023-04-26
+659,Jetstar,Sydney,Melbourne,Business,286,2023-09-25,2023-07-06
+660,Qantas,Melbourne,Dubai,Economy,1719,2023-10-23,2023-07-04
+661,Singapore Airlines,Brisbane,Adelaide,Business,1723,2023-04-28,2023-06-04
+662,Qantas,Sydney,Melbourne,Economy,853,2023-01-20,2023-07-21
+663,Virgin Australia,Sydney,Melbourne,First,1977,2023-08-10,2023-04-10
+664,Qantas,Sydney,Singapore,Economy,192,2023-06-15,2023-03-07
+665,Virgin Australia,Brisbane,Adelaide,Economy,185,2023-05-11,2023-05-05
+666,Jetstar,Brisbane,Adelaide,Business,1167,2023-06-05,2024-01-14
+667,Virgin Australia,Melbourne,Dubai,Economy,236,2023-07-03,2023-12-22
+668,Virgin Australia,Brisbane,Adelaide,First,520,2023-03-31,2023-02-26
+669,Emirates,Melbourne,Perth,First,173,2023-04-04,2023-08-13
+670,Singapore Airlines,Sydney,Singapore,Economy,1671,2023-01-13,2023-08-02
+671,Singapore Airlines,Brisbane,Adelaide,Economy,1736,2023-11-18,2023-11-08
+672,Jetstar,Melbourne,Dubai,Economy,1635,2023-10-20,2023-12-26
+673,Jetstar,Melbourne,Perth,Economy,1279,2023-08-18,2023-09-11
+674,Singapore Airlines,Sydney,Brisbane,Economy,1378,2023-11-18,2023-05-09
+675,Emirates,Sydney,Brisbane,Business,270,2023-10-19,2023-02-09
+676,Singapore Airlines,Melbourne,Perth,Economy,1851,2023-01-26,2023-11-09
+677,Emirates,Melbourne,Dubai,Economy,269,2023-03-16,2023-04-01
+678,Jetstar,Melbourne,Perth,First,1887,2023-12-30,2023-05-31
+679,Qantas,Sydney,Singapore,Economy,971,2023-10-26,2023-02-03
+680,Jetstar,Sydney,Singapore,Economy,421,2023-05-30,2023-08-13
+681,Jetstar,Sydney,Brisbane,Business,1690,2023-05-28,2023-09-11
+682,Virgin Australia,Brisbane,Adelaide,Economy,555,2023-01-08,2023-02-22
+683,Virgin Australia,Melbourne,Dubai,Business,1043,2023-01-29,2023-10-09
+684,Virgin Australia,Sydney,Brisbane,First,1726,2023-10-23,2023-08-09
+685,Virgin Australia,Brisbane,Adelaide,Business,889,2023-07-28,2023-10-08
+686,Emirates,Brisbane,Adelaide,Economy,712,2023-05-08,2023-06-17
+687,Singapore Airlines,Sydney,Singapore,Economy,1278,2023-12-06,2023-02-25
+688,Qantas,Sydney,Melbourne,Economy,988,2023-04-26,2023-01-25
+689,Jetstar,Sydney,Melbourne,Business,448,2023-05-24,2023-11-04
+690,Emirates,Melbourne,Perth,Business,1574,2023-11-14,2023-04-22
+691,Qantas,Sydney,Singapore,Economy,1999,2023-08-23,2023-10-16
+692,Emirates,Brisbane,Adelaide,Economy,1776,2023-01-07,2023-09-01
+693,Emirates,Melbourne,Dubai,Economy,1296,2023-02-14,2023-08-22
+694,Jetstar,Sydney,Melbourne,Economy,109,2023-08-27,2023-03-20
+695,Singapore Airlines,Brisbane,Adelaide,Business,839,2023-06-04,2024-01-04
+696,Virgin Australia,Sydney,Melbourne,Economy,1388,2023-06-30,2023-09-03
+697,Singapore Airlines,Sydney,Melbourne,Business,1561,2023-08-03,2023-12-08
+698,Jetstar,Sydney,Melbourne,Business,1883,2023-03-29,2023-03-07
+699,Jetstar,Melbourne,Dubai,Economy,1370,2023-09-13,2023-10-04
+700,Jetstar,Sydney,Singapore,Economy,766,2023-03-14,2023-10-08
+701,Qantas,Melbourne,Dubai,Economy,645,2023-06-28,2024-01-08
+702,Singapore Airlines,Sydney,Brisbane,Economy,1622,2023-07-31,2023-11-27
+703,Singapore Airlines,Brisbane,Adelaide,Business,228,2023-10-20,2023-12-04
+704,Emirates,Sydney,Singapore,Business,1795,2023-08-22,2023-06-17
+705,Emirates,Sydney,Singapore,Business,700,2023-08-27,2024-01-07
+706,Emirates,Sydney,Singapore,Economy,704,2023-08-11,2023-06-03
+707,Jetstar,Sydney,Singapore,Economy,426,2023-04-29,2023-03-06
+708,Singapore Airlines,Melbourne,Dubai,Business,1876,2023-11-09,2023-05-11
+709,Jetstar,Sydney,Singapore,Economy,1958,2023-09-21,2023-03-01
+710,Qantas,Melbourne,Perth,Economy,1079,2023-07-26,2023-11-19
+711,Emirates,Brisbane,Adelaide,Economy,503,2023-04-05,2023-04-12
+712,Jetstar,Sydney,Singapore,Economy,728,2023-08-10,2023-08-10
+713,Jetstar,Brisbane,Adelaide,Economy,1729,2023-10-03,2023-10-10
+714,Qantas,Melbourne,Perth,Economy,1798,2023-08-19,2023-04-13
+715,Virgin Australia,Melbourne,Perth,First,1734,2023-11-05,2023-05-12
+716,Singapore Airlines,Brisbane,Adelaide,Economy,1748,2023-04-29,2023-03-09
+717,Virgin Australia,Sydney,Melbourne,Economy,1482,2023-09-25,2023-05-10
+718,Emirates,Sydney,Brisbane,Economy,1726,2023-09-30,2023-05-12
+719,Jetstar,Sydney,Melbourne,Business,1981,2023-03-05,2023-10-01
+720,Qantas,Sydney,Melbourne,Economy,817,2023-10-25,2023-03-30
+721,Qantas,Melbourne,Dubai,Economy,1140,2023-12-16,2023-11-15
+722,Singapore Airlines,Sydney,Melbourne,Economy,373,2023-01-11,2023-01-21
+723,Virgin Australia,Sydney,Singapore,Business,784,2023-04-08,2023-05-16
+724,Singapore Airlines,Melbourne,Dubai,Economy,215,2023-03-12,2023-01-25
+725,Jetstar,Melbourne,Dubai,Business,960,2023-12-30,2023-12-28
+726,Singapore Airlines,Melbourne,Perth,Business,792,2023-02-27,2023-08-17
+727,Qantas,Sydney,Melbourne,Economy,1214,2023-10-17,2023-10-20
+728,Qantas,Melbourne,Perth,Business,1205,2023-09-08,2023-02-11
+729,Emirates,Brisbane,Adelaide,Economy,423,2023-10-03,2023-09-06
+730,Emirates,Sydney,Brisbane,Business,1060,2023-02-19,2023-11-23
+731,Jetstar,Melbourne,Dubai,Economy,213,2023-12-24,2023-02-09
+732,Virgin Australia,Brisbane,Adelaide,Business,1892,2023-08-04,2023-03-09
+733,Singapore Airlines,Brisbane,Adelaide,Economy,1181,2023-02-21,2023-02-12
+734,Jetstar,Sydney,Singapore,Economy,253,2023-09-28,2024-01-02
+735,Emirates,Sydney,Brisbane,Economy,1527,2023-03-25,2023-06-27
+736,Singapore Airlines,Brisbane,Adelaide,Economy,1751,2023-10-20,2023-10-11
+737,Emirates,Brisbane,Adelaide,Economy,1978,2023-05-06,2023-12-14
+738,Singapore Airlines,Sydney,Brisbane,Economy,1389,2023-10-23,2023-02-18
+739,Virgin Australia,Sydney,Brisbane,Economy,414,2023-03-13,2023-10-27
+740,Jetstar,Brisbane,Adelaide,Economy,1838,2023-10-23,2023-12-28
+741,Singapore Airlines,Sydney,Brisbane,Business,1164,2023-08-24,2023-10-14
+742,Qantas,Brisbane,Adelaide,Economy,204,2023-02-25,2023-08-10
+743,Qantas,Brisbane,Adelaide,Economy,1316,2023-12-26,2023-09-09
+744,Singapore Airlines,Sydney,Singapore,Economy,1524,2023-04-20,2023-04-17
+745,Singapore Airlines,Sydney,Melbourne,Economy,1401,2023-07-11,2023-07-06
+746,Singapore Airlines,Brisbane,Adelaide,First,453,2023-04-03,2023-04-03
+747,Qantas,Melbourne,Perth,Economy,1115,2023-12-16,2023-05-04
+748,Qantas,Melbourne,Dubai,Business,1872,2023-02-25,2023-08-19
+749,Singapore Airlines,Sydney,Melbourne,First,832,2023-03-01,2024-01-07
+750,Emirates,Sydney,Melbourne,Business,1703,2023-05-18,2023-04-30
+751,Emirates,Sydney,Melbourne,Economy,808,2023-02-08,2023-03-02
+752,Virgin Australia,Sydney,Singapore,Business,1379,2023-01-28,2023-07-14
+753,Jetstar,Brisbane,Adelaide,First,750,2023-02-18,2023-03-19
+754,Emirates,Sydney,Singapore,Economy,923,2023-05-05,2023-09-17
+755,Qantas,Brisbane,Adelaide,Economy,1046,2023-01-13,2023-09-15
+756,Emirates,Sydney,Singapore,Economy,760,2023-02-05,2023-11-30
+757,Virgin Australia,Sydney,Singapore,Economy,198,2023-04-11,2023-04-11
+758,Virgin Australia,Melbourne,Dubai,Economy,687,2023-10-09,2023-08-19
+759,Jetstar,Melbourne,Perth,Economy,381,2023-03-27,2023-01-21
+760,Emirates,Sydney,Singapore,Economy,502,2023-01-04,2023-10-19
+761,Qantas,Melbourne,Dubai,Economy,1232,2023-08-11,2023-12-17
+762,Qantas,Sydney,Brisbane,Economy,799,2023-12-04,2023-08-12
+763,Singapore Airlines,Melbourne,Perth,Economy,298,2023-06-15,2023-07-02
+764,Qantas,Sydney,Singapore,Economy,1426,2023-12-10,2023-12-10
+765,Jetstar,Sydney,Melbourne,Economy,426,2023-10-05,2023-06-01
+766,Jetstar,Sydney,Brisbane,Economy,253,2023-05-10,2023-11-16
+767,Qantas,Sydney,Brisbane,Business,651,2023-01-31,2023-09-01
+768,Qantas,Melbourne,Dubai,Economy,1768,2023-01-11,2023-11-18
+769,Singapore Airlines,Sydney,Brisbane,Economy,504,2023-10-29,2023-06-24
+770,Qantas,Melbourne,Perth,Business,561,2023-04-06,2023-01-15
+771,Singapore Airlines,Sydney,Singapore,Economy,231,2023-07-09,2023-09-07
+772,Singapore Airlines,Sydney,Singapore,Economy,890,2023-07-11,2023-07-21
+773,Qantas,Sydney,Melbourne,Business,973,2023-09-23,2023-01-18
+774,Virgin Australia,Melbourne,Dubai,Business,183,2023-05-08,2023-05-26
+775,Virgin Australia,Sydney,Melbourne,Economy,1522,2023-08-26,2023-08-20
+776,Singapore Airlines,Sydney,Brisbane,Economy,853,2023-12-21,2023-10-01
+777,Qantas,Sydney,Melbourne,First,727,2023-04-22,2023-01-15
+778,Virgin Australia,Melbourne,Perth,Economy,1232,2023-11-12,2023-03-26
+779,Qantas,Sydney,Singapore,Economy,320,2023-12-09,2023-07-11
+780,Qantas,Sydney,Brisbane,Business,652,2023-05-25,2023-07-22
+781,Qantas,Sydney,Melbourne,Economy,1491,2023-03-06,2023-11-01
+782,Emirates,Melbourne,Dubai,Economy,1270,2023-09-04,2023-01-22
+783,Qantas,Melbourne,Perth,Economy,211,2023-08-11,2023-09-24
+784,Emirates,Melbourne,Perth,Business,714,2023-11-09,2023-11-02
+785,Singapore Airlines,Sydney,Melbourne,Economy,1681,2023-04-16,2023-09-15
+786,Virgin Australia,Sydney,Singapore,Economy,1023,2023-06-30,2023-05-17
+787,Virgin Australia,Sydney,Melbourne,Economy,1617,2023-07-03,2023-11-09
+788,Virgin Australia,Sydney,Brisbane,Economy,1628,2023-08-14,2023-10-24
+789,Virgin Australia,Sydney,Melbourne,Economy,574,2023-09-22,2023-02-15
+790,Virgin Australia,Melbourne,Perth,Business,935,2023-10-05,2023-12-14
+791,Virgin Australia,Sydney,Melbourne,Economy,370,2023-03-30,2023-06-09
+792,Virgin Australia,Sydney,Singapore,Economy,520,2023-06-25,2023-06-19
+793,Singapore Airlines,Melbourne,Dubai,Business,806,2023-01-18,2023-01-30
+794,Qantas,Brisbane,Adelaide,Economy,1490,2023-04-16,2024-01-04
+795,Jetstar,Sydney,Melbourne,First,1403,2023-09-28,2023-03-02
+796,Emirates,Sydney,Singapore,Economy,1406,2023-11-15,2023-09-22
+797,Jetstar,Sydney,Singapore,Economy,139,2023-06-16,2023-07-20
+798,Jetstar,Melbourne,Dubai,Economy,288,2023-01-13,2023-02-14
+799,Qantas,Melbourne,Perth,Business,1287,2023-12-03,2023-10-01
+800,Qantas,Sydney,Singapore,Economy,1093,2023-02-01,2023-01-31
+801,Qantas,Sydney,Singapore,Economy,1659,2023-02-09,2023-02-22
+802,Virgin Australia,Sydney,Singapore,Economy,635,2023-05-28,2023-11-14
+803,Singapore Airlines,Sydney,Singapore,Economy,1127,2023-08-06,2023-02-22
+804,Virgin Australia,Sydney,Brisbane,Economy,1958,2023-08-07,2023-05-26
+805,Singapore Airlines,Sydney,Brisbane,Business,389,2023-03-23,2023-02-13
+806,Singapore Airlines,Melbourne,Perth,Economy,532,2023-11-29,2023-06-21
+807,Jetstar,Sydney,Melbourne,Business,570,2023-07-27,2023-10-19
+808,Jetstar,Sydney,Singapore,Economy,1304,2023-07-20,2023-08-05
+809,Singapore Airlines,Melbourne,Dubai,Economy,1371,2023-11-28,2023-03-21
+810,Singapore Airlines,Sydney,Melbourne,Economy,727,2023-02-07,2023-05-02
+811,Virgin Australia,Melbourne,Dubai,Economy,378,2023-07-30,2023-10-09
+812,Virgin Australia,Sydney,Melbourne,Business,976,2023-11-23,2023-08-24
+813,Jetstar,Melbourne,Perth,First,680,2023-09-06,2023-11-02
+814,Qantas,Sydney,Singapore,Economy,962,2023-08-15,2023-02-01
+815,Singapore Airlines,Sydney,Singapore,Economy,353,2023-02-17,2023-04-14
+816,Virgin Australia,Brisbane,Adelaide,Economy,280,2023-01-18,2023-07-14
+817,Jetstar,Melbourne,Dubai,First,1953,2023-10-22,2023-09-26
+818,Virgin Australia,Sydney,Melbourne,Economy,780,2023-07-15,2023-09-24
+819,Singapore Airlines,Sydney,Melbourne,Economy,924,2023-07-06,2023-09-28
+820,Singapore Airlines,Sydney,Brisbane,Business,1632,2023-12-11,2023-12-26
+821,Emirates,Brisbane,Adelaide,Economy,1884,2023-08-12,2023-04-11
+822,Qantas,Sydney,Brisbane,Economy,799,2023-11-14,2023-04-14
+823,Emirates,Sydney,Brisbane,Economy,665,2023-12-31,2023-09-08
+824,Jetstar,Sydney,Brisbane,Business,1449,2023-12-03,2023-03-25
+825,Virgin Australia,Melbourne,Dubai,Economy,1480,2023-08-17,2023-02-27
+826,Jetstar,Melbourne,Dubai,Economy,1948,2023-03-18,2023-08-02
+827,Singapore Airlines,Melbourne,Perth,Economy,1773,2023-07-07,2023-06-15
+828,Emirates,Melbourne,Perth,Economy,779,2023-12-12,2023-04-10
+829,Emirates,Sydney,Brisbane,Economy,490,2023-09-27,2023-02-02
+830,Emirates,Brisbane,Adelaide,Economy,1738,2023-04-05,2023-04-25
+831,Jetstar,Sydney,Melbourne,Economy,1208,2023-11-06,2023-04-19
+832,Singapore Airlines,Melbourne,Dubai,Economy,1440,2023-05-12,2023-09-25
+833,Virgin Australia,Brisbane,Adelaide,Economy,311,2023-02-08,2024-01-06
+834,Virgin Australia,Sydney,Singapore,Economy,1638,2023-03-13,2023-02-13
+835,Jetstar,Melbourne,Dubai,Business,483,2023-10-08,2023-09-20
+836,Emirates,Melbourne,Dubai,Economy,1814,2023-11-29,2023-02-16
+837,Qantas,Melbourne,Perth,Business,441,2023-06-09,2023-08-31
+838,Jetstar,Sydney,Melbourne,Business,1938,2023-07-06,2023-01-26
+839,Jetstar,Sydney,Melbourne,Economy,943,2023-07-10,2023-05-12
+840,Singapore Airlines,Sydney,Singapore,Economy,1161,2023-04-30,2023-12-30
+841,Virgin Australia,Sydney,Singapore,Economy,1634,2023-08-08,2023-06-18
+842,Jetstar,Melbourne,Dubai,Economy,519,2023-02-22,2023-09-17
+843,Jetstar,Sydney,Brisbane,Economy,850,2023-08-10,2023-12-12
+844,Emirates,Melbourne,Perth,Economy,1292,2023-05-11,2023-09-18
+845,Emirates,Melbourne,Perth,Economy,1466,2023-08-25,2023-02-12
+846,Qantas,Melbourne,Dubai,Business,1949,2023-09-03,2023-06-24
+847,Singapore Airlines,Brisbane,Adelaide,Economy,405,2023-08-14,2023-09-06
+848,Qantas,Sydney,Brisbane,Business,1665,2023-07-27,2023-07-23
+849,Emirates,Melbourne,Dubai,Economy,801,2023-04-06,2023-05-11
+850,Virgin Australia,Sydney,Brisbane,Business,968,2023-07-19,2023-10-12
+851,Emirates,Sydney,Brisbane,Economy,636,2023-09-04,2023-09-29
+852,Singapore Airlines,Sydney,Brisbane,Economy,1235,2023-03-13,2023-07-13
+853,Emirates,Melbourne,Dubai,Economy,1534,2023-11-14,2023-07-05
+854,Singapore Airlines,Melbourne,Perth,Economy,305,2023-07-04,2023-10-15
+855,Singapore Airlines,Melbourne,Perth,Economy,1308,2023-01-06,2023-09-30
+856,Singapore Airlines,Sydney,Brisbane,Business,1505,2023-07-25,2023-05-29
+857,Singapore Airlines,Brisbane,Adelaide,Economy,595,2023-02-01,2023-07-04
+858,Singapore Airlines,Sydney,Melbourne,Economy,1502,2023-04-09,2023-08-12
+859,Virgin Australia,Melbourne,Dubai,Business,1170,2023-09-13,2023-09-07
+860,Qantas,Sydney,Melbourne,Business,1863,2023-07-06,2023-07-19
+861,Jetstar,Brisbane,Adelaide,Economy,1674,2023-03-17,2024-01-13
+862,Qantas,Melbourne,Dubai,Economy,1651,2023-06-26,2023-04-19
+863,Singapore Airlines,Sydney,Brisbane,Economy,603,2023-11-11,2023-01-25
+864,Virgin Australia,Melbourne,Perth,Economy,1145,2023-10-14,2023-03-23
+865,Emirates,Sydney,Melbourne,Business,312,2023-12-15,2023-08-12
+866,Virgin Australia,Sydney,Singapore,First,409,2023-09-12,2023-07-29
+867,Singapore Airlines,Sydney,Singapore,Business,760,2023-11-21,2023-04-22
+868,Virgin Australia,Brisbane,Adelaide,Business,852,2023-07-09,2023-04-17
+869,Virgin Australia,Sydney,Brisbane,Economy,371,2023-11-04,2023-02-05
+870,Singapore Airlines,Sydney,Melbourne,Business,1694,2023-12-11,2023-07-05
+871,Virgin Australia,Sydney,Brisbane,Business,1922,2023-05-07,2023-05-28
+872,Jetstar,Sydney,Melbourne,Economy,1037,2023-10-14,2023-02-08
+873,Jetstar,Brisbane,Adelaide,Business,1325,2023-09-11,2023-07-18
+874,Virgin Australia,Brisbane,Adelaide,Economy,131,2023-08-01,2023-04-09
+875,Emirates,Sydney,Singapore,Economy,542,2023-09-07,2023-03-10
+876,Singapore Airlines,Sydney,Brisbane,Business,261,2023-03-25,2023-09-22
+877,Jetstar,Melbourne,Dubai,Economy,866,2023-01-13,2023-06-07
+878,Emirates,Sydney,Singapore,Economy,353,2023-02-14,2023-12-31
+879,Virgin Australia,Sydney,Brisbane,Economy,620,2023-05-07,2023-06-30
+880,Emirates,Sydney,Singapore,Economy,1076,2023-04-24,2023-08-26
+881,Qantas,Melbourne,Dubai,Business,1774,2023-10-03,2023-08-22
+882,Jetstar,Melbourne,Perth,Economy,1603,2023-07-24,2023-07-12
+883,Virgin Australia,Melbourne,Perth,Economy,109,2023-12-03,2023-05-13
+884,Singapore Airlines,Melbourne,Perth,Business,825,2023-09-30,2023-10-06
+885,Virgin Australia,Melbourne,Perth,Economy,604,2023-02-27,2023-06-13
+886,Singapore Airlines,Sydney,Melbourne,Economy,884,2023-11-24,2023-08-17
+887,Virgin Australia,Melbourne,Perth,Economy,1959,2023-08-07,2023-07-30
+888,Emirates,Melbourne,Dubai,Business,1683,2023-04-19,2023-02-25
+889,Emirates,Brisbane,Adelaide,Economy,535,2023-10-06,2023-03-08
+890,Emirates,Brisbane,Adelaide,Economy,1234,2023-06-23,2023-12-10
+891,Qantas,Sydney,Melbourne,Economy,252,2023-11-24,2023-09-22
+892,Singapore Airlines,Melbourne,Perth,Economy,1758,2023-09-21,2023-11-05
+893,Emirates,Melbourne,Perth,Economy,1016,2023-11-11,2023-10-12
+894,Qantas,Melbourne,Perth,Economy,968,2023-04-21,2023-05-17
+895,Singapore Airlines,Sydney,Singapore,Economy,1225,2023-07-06,2023-12-19
+896,Virgin Australia,Sydney,Brisbane,Business,852,2023-09-26,2023-10-07
+897,Qantas,Sydney,Singapore,Economy,1956,2023-08-17,2023-12-28
+898,Jetstar,Sydney,Brisbane,Business,1314,2023-06-05,2023-02-12
+899,Qantas,Melbourne,Perth,First,1852,2023-07-08,2023-02-18
+900,Qantas,Melbourne,Perth,Business,662,2023-09-29,2023-01-20
+901,Singapore Airlines,Sydney,Singapore,Economy,1927,2023-01-02,2023-05-05
+902,Virgin Australia,Sydney,Singapore,Economy,1204,2023-09-03,2023-11-04
+903,Jetstar,Sydney,Brisbane,Economy,588,2023-07-29,2023-04-01
+904,Emirates,Brisbane,Adelaide,Economy,994,2023-10-13,2023-12-29
+905,Emirates,Sydney,Brisbane,Economy,1211,2023-12-25,2023-06-10
+906,Qantas,Sydney,Singapore,Business,1317,2023-01-13,2023-03-22
+907,Singapore Airlines,Melbourne,Dubai,Business,203,2023-04-06,2023-01-22
+908,Singapore Airlines,Sydney,Singapore,Economy,1906,2023-08-09,2023-05-16
+909,Emirates,Melbourne,Dubai,Economy,1219,2023-08-26,2023-12-20
+910,Jetstar,Sydney,Melbourne,Business,1546,2023-04-04,2023-07-08
+911,Virgin Australia,Sydney,Singapore,Economy,1321,2023-12-04,2023-07-12
+912,Jetstar,Sydney,Melbourne,Economy,1124,2023-09-26,2023-04-09
+913,Virgin Australia,Brisbane,Adelaide,Business,1106,2023-06-20,2023-02-28
+914,Emirates,Sydney,Brisbane,Economy,506,2023-04-04,2023-05-30
+915,Virgin Australia,Melbourne,Dubai,Economy,1501,2023-05-29,2023-12-23
+916,Singapore Airlines,Sydney,Brisbane,Economy,266,2023-04-22,2023-01-30
+917,Qantas,Sydney,Melbourne,Business,608,2023-02-24,2023-12-13
+918,Qantas,Melbourne,Dubai,Economy,1761,2023-12-03,2023-07-28
+919,Emirates,Sydney,Brisbane,Economy,412,2023-04-26,2023-01-23
+920,Singapore Airlines,Sydney,Singapore,Economy,1716,2023-05-23,2023-11-26
+921,Jetstar,Melbourne,Perth,Economy,1541,2023-07-20,2023-12-14
+922,Singapore Airlines,Sydney,Melbourne,Economy,862,2023-06-29,2023-12-13
+923,Qantas,Sydney,Brisbane,Business,780,2023-07-21,2023-12-07
+924,Qantas,Sydney,Melbourne,Economy,576,2023-12-30,2023-01-29
+925,Singapore Airlines,Sydney,Melbourne,Business,172,2023-02-22,2023-12-07
+926,Singapore Airlines,Melbourne,Dubai,Economy,1264,2023-06-29,2023-04-26
+927,Qantas,Melbourne,Dubai,Economy,681,2023-11-09,2023-08-28
+928,Jetstar,Melbourne,Perth,Economy,361,2023-11-04,2023-10-19
+929,Emirates,Sydney,Singapore,Economy,1463,2023-05-17,2023-05-07
+930,Emirates,Sydney,Melbourne,Economy,1431,2023-07-01,2023-01-15
+931,Singapore Airlines,Sydney,Brisbane,Economy,344,2023-01-01,2023-10-07
+932,Emirates,Brisbane,Adelaide,Economy,1638,2023-02-13,2023-08-10
+933,Qantas,Sydney,Melbourne,Economy,1460,2023-08-15,2023-05-04
+934,Qantas,Sydney,Melbourne,Economy,1698,2023-11-27,2023-08-02
+935,Singapore Airlines,Melbourne,Perth,Business,660,2023-04-08,2023-11-16
+936,Singapore Airlines,Sydney,Singapore,Business,1199,2023-07-27,2023-01-26
+937,Singapore Airlines,Brisbane,Adelaide,Economy,274,2023-09-22,2023-12-25
+938,Jetstar,Melbourne,Dubai,Economy,208,2023-10-15,2023-07-21
+939,Emirates,Melbourne,Dubai,Economy,282,2023-09-28,2023-06-17
+940,Singapore Airlines,Sydney,Brisbane,Economy,291,2023-05-20,2023-12-14
+941,Virgin Australia,Brisbane,Adelaide,Economy,164,2023-08-25,2023-10-20
+942,Virgin Australia,Melbourne,Dubai,Business,1972,2023-03-13,2023-07-04
+943,Qantas,Sydney,Brisbane,Economy,1062,2023-06-04,2023-05-28
+944,Emirates,Sydney,Singapore,Economy,1597,2023-07-09,2023-02-08
+945,Singapore Airlines,Sydney,Brisbane,Business,1906,2023-09-25,2023-02-01
+946,Virgin Australia,Melbourne,Dubai,Economy,1223,2023-11-17,2023-07-23
+947,Emirates,Melbourne,Perth,Business,1667,2023-04-17,2023-06-04
+948,Qantas,Melbourne,Perth,Economy,963,2023-08-20,2023-02-26
+949,Jetstar,Melbourne,Perth,Economy,1251,2023-02-11,2023-12-14
+950,Emirates,Melbourne,Dubai,Economy,1575,2023-07-09,2023-10-25
+951,Emirates,Melbourne,Perth,Economy,468,2023-05-19,2023-06-09
+952,Jetstar,Brisbane,Adelaide,First,950,2023-04-13,2023-11-25
+953,Emirates,Sydney,Singapore,Economy,142,2023-06-20,2023-11-29
+954,Qantas,Sydney,Brisbane,First,1542,2023-12-17,2023-04-16
+955,Qantas,Sydney,Brisbane,Economy,587,2023-09-30,2023-07-12
+956,Jetstar,Melbourne,Dubai,Economy,177,2023-08-09,2023-03-11
+957,Singapore Airlines,Melbourne,Perth,Economy,925,2023-08-01,2023-06-18
+958,Virgin Australia,Melbourne,Perth,Economy,1924,2023-12-07,2023-06-23
+959,Singapore Airlines,Sydney,Melbourne,Business,1393,2023-02-25,2023-05-05
+960,Emirates,Sydney,Singapore,Economy,773,2023-12-08,2023-05-31
+961,Virgin Australia,Brisbane,Adelaide,Economy,800,2023-04-12,2023-09-03
+962,Jetstar,Sydney,Brisbane,Economy,858,2023-07-11,2023-08-22
+963,Jetstar,Sydney,Melbourne,Economy,827,2023-11-06,2023-03-23
+964,Virgin Australia,Sydney,Melbourne,Economy,1438,2023-07-19,2023-11-12
+965,Qantas,Melbourne,Dubai,Economy,1024,2023-08-21,2023-09-20
+966,Virgin Australia,Sydney,Brisbane,Business,1974,2023-08-15,2023-12-03
+967,Emirates,Melbourne,Dubai,Economy,1001,2023-05-19,2023-01-20
+968,Qantas,Brisbane,Adelaide,Economy,988,2023-12-10,2023-10-21
+969,Jetstar,Sydney,Melbourne,Economy,1092,2023-11-01,2023-04-18
+970,Virgin Australia,Sydney,Melbourne,Economy,1291,2023-05-29,2023-10-10
+971,Singapore Airlines,Sydney,Singapore,First,438,2023-04-25,2023-07-30
+972,Singapore Airlines,Brisbane,Adelaide,Economy,292,2023-03-04,2023-02-08
+973,Emirates,Sydney,Melbourne,Economy,1576,2023-04-14,2023-06-11
+974,Singapore Airlines,Brisbane,Adelaide,Economy,382,2023-12-05,2023-05-12
+975,Virgin Australia,Sydney,Brisbane,Economy,1459,2023-12-25,2023-12-18
+976,Virgin Australia,Melbourne,Perth,Economy,489,2023-06-05,2023-12-18
+977,Singapore Airlines,Sydney,Melbourne,First,1099,2023-09-30,2023-03-21
+978,Virgin Australia,Sydney,Singapore,Business,624,2023-01-06,2023-11-11
+979,Emirates,Sydney,Brisbane,First,1363,2023-05-27,2023-07-08
+980,Qantas,Brisbane,Adelaide,Economy,1955,2023-07-03,2023-11-29
+981,Emirates,Melbourne,Dubai,Economy,1606,2023-01-28,2023-03-31
+982,Emirates,Sydney,Brisbane,Economy,758,2023-02-07,2023-05-08
+983,Virgin Australia,Sydney,Melbourne,Economy,815,2023-04-29,2023-05-05
+984,Qantas,Brisbane,Adelaide,Business,1715,2023-10-20,2023-09-20
+985,Virgin Australia,Melbourne,Perth,Economy,990,2023-09-01,2023-08-05
+986,Jetstar,Sydney,Brisbane,Business,1678,2023-03-09,2023-06-10
+987,Virgin Australia,Sydney,Melbourne,Business,1581,2023-08-02,2023-02-18
+988,Virgin Australia,Sydney,Singapore,Economy,1212,2023-08-06,2023-11-19
+989,Virgin Australia,Melbourne,Dubai,Economy,1783,2023-06-26,2023-02-09
+990,Qantas,Brisbane,Adelaide,Economy,1218,2023-10-26,2023-09-09
+991,Virgin Australia,Sydney,Brisbane,Economy,551,2023-06-13,2023-01-28
+992,Qantas,Sydney,Brisbane,Business,527,2023-02-27,2023-02-28
+993,Singapore Airlines,Melbourne,Perth,Economy,1274,2023-09-26,2023-08-18
+994,Jetstar,Melbourne,Perth,Economy,1637,2023-11-04,2023-09-04
+995,Qantas,Sydney,Singapore,Economy,1499,2023-02-27,2023-07-26
+996,Singapore Airlines,Melbourne,Dubai,First,1145,2023-10-15,2023-03-06
+997,Qantas,Sydney,Singapore,Economy,982,2023-04-15,2023-08-16
+998,Qantas,Sydney,Melbourne,Business,412,2023-08-16,2023-06-14
+999,Jetstar,Sydney,Melbourne,Economy,939,2023-09-04,2023-10-16
+1000,Emirates,Sydney,Singapore,Business,618,2023-07-07,2023-12-18
