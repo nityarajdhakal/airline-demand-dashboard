@@ -2,6 +2,8 @@
 # Cell 1: Dataset creation
 import pandas as pd
 import numpy as np
+import streamlit as st
+
 
 np.random.seed(42)
 n = 1000
@@ -157,7 +159,7 @@ plt.show()
 
 
 # %% Interactive Dashboard
-import ipywidgets as widgets
+
 from IPython.display import display, clear_output
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -171,25 +173,25 @@ labels = ["0-6","7-13","14-29","30-59","60-89","90-119","120+"]
 df['LeadBucket'] = pd.cut(df['LeadDays'], bins=bins, labels=labels, right=False)
 
 # Widget dropdowns
-airline_dropdown = widgets.Dropdown(
+airline_dropdown = st.selectbox(
     options=['All'] + sorted(df['Airline'].unique().tolist()),
     description='Airline:'
 )
-origin_dropdown = widgets.Dropdown(
+origin_dropdown = st.selectbox(
     options=['All'] + sorted(df['Origin'].unique().tolist()),
     description='Origin:'
 )
-destination_dropdown = widgets.Dropdown(
+destination_dropdown = st.selectbox(
     options=['All'] + sorted(df['Destination'].unique().tolist()),
     description='Destination:'
 )
-cabin_dropdown = widgets.Dropdown(
+cabin_dropdown = st.selectbox(
     options=['All'] + sorted(df['Cabin'].unique().tolist()),
     description='Cabin:'
 )
 
 # Output area
-output = widgets.Output()
+output = st.Output()
 
 # Function to update charts
 def update_dashboard(change=None):
@@ -243,7 +245,7 @@ for w in [airline_dropdown, origin_dropdown, destination_dropdown, cabin_dropdow
     w.observe(update_dashboard, names='value')
 
 # Display widgets and output
-display(widgets.HBox([airline_dropdown, origin_dropdown, destination_dropdown, cabin_dropdown]))
+display(st.HBox([airline_dropdown, origin_dropdown, destination_dropdown, cabin_dropdown]))
 display(output)
 
 # Initial dashboard
